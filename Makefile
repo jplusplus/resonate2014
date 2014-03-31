@@ -15,4 +15,11 @@ freeze:
 	-rm build/static/.webassets-cache/ -r
 	sed -i 's/\/static/static/g' build/index.html
 
+update_i18n:
+	pybabel extract -F babel.cfg -o translations/messages.pot .
+	pybabel update -i translations/messages.pot -d translations
+
+compile_i18n:
+	pybabel compile -d translations
+
 # EOF
