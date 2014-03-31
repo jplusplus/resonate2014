@@ -1,0 +1,19 @@
+
+.icon:
+	speak                  : none
+	font-style             : normal
+	font-weight            : normal
+	font-variant           : normal
+	text-transform         : none
+	line-height            : 1
+	-webkit-font-smoothing : antialiased
+	&.icon-arrow-down:
+		font-size:2em
+		&:before:
+			content:'\"\\2335\"'
+
+
+.center:
+	position  : relative
+	margin    : auto
+	text-align: center

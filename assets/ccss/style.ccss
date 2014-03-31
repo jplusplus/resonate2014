@@ -1,4 +1,53 @@
 body, html:
-	height: 100%
+	height      : 100%
+	font-family : 'Cabin'
+
+.navbar:
+	transition-property:background-color
+	transition-duration:.5s
+	&.reverse:
+		background-color: "rgba(34, 34, 34, 0.22)"
+		border-color    : "rgba(34, 34, 34, 0.32)"
+		.navbar-brand:
+			color: white
+		.navbar-nav>li>a:
+			color: white
+
+.main:
+	width:100%
+	.main_title:
+		text-align            : center
+		background-image      : url("../images/talk.jpg")
+		background-attachment :fixed
+		background-repeat     : "no-repeat"
+		padding-top           : 75px
+		padding-bottom        : 15px
+		img:
+			position: relative
+
+	.article:
+		padding: 10px 0
+		.title:
+			font-size: 2em
+		.subtitle:
+			font-size:1.5em
+
+.illustration:
+	height:500px
 	background-size: cover
-	font-family: 'Cabin'
+
+.scroll-indicator:
+	position                          : absolute
+	bottom                            : 55px
+	right                             : 50%
+	-webkit-animation-name            : pulsate
+	-webkit-animation-duration        : 1.5s
+	-webkit-animation-timing-function : ease-in-out
+	-webkit-animation-iteration-count : infinite
+	font-size                         : 30px
+	margin-left                       : -25px
+	opacity                           : 0.5
+	width                             : 50px
+	text-align                        : center
+
+//EOF

@@ -610,7 +610,8 @@ class Engine(object):
             block = []
             block.append(u',\n'.join(selectors) + ' {')
             for key, value in defs:
-                if value[0] == value[-1] and value[0] in "\"'": value = value[1:-1]
+                print key, value
+                if value[0] == value[-1] and value[0] in "'": value = value[1:-1]
                 if key.strip() == "RAW":
                     block.append(u'  %s;' % (value.replace("\\'","'")))
                 else:
