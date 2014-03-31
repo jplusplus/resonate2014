@@ -13,10 +13,13 @@
 from flask import Flask, render_template, request, send_file, \
 	send_from_directory, Response, abort, session, redirect, url_for, make_response
 from flask.ext.assets import Environment, YAMLLoader
+from flask.ext.babel import Babel
 
 # app
 app = Flask(__name__)
 app.config.from_pyfile("settings.cfg")
+# i18n
+babel = Babel(app)
 # assets
 assets  = Environment(app)
 bundles = YAMLLoader("assets.yaml").load_bundles()
@@ -31,6 +34,17 @@ assets.register(bundles)
 def index():
 	response = make_response(render_template('home.html'))
 	return response
+
+# -----------------------------------------------------------------------------
+#
+#    UTILS
+#
+# -----------------------------------------------------------------------------
+@babel.localeselector
+def get_locale():
+	# try to guess the language from the user accept
+	# header the browser transmits.
+	return request.accept_languages.best_match(['de', 'fr'])
 
 # -----------------------------------------------------------------------------
 #

@@ -12,7 +12,6 @@
 		&:before:
 			content:'\"\\2335\"'
 
-
 .center:
 	position  : relative
 	margin    : auto
