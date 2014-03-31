@@ -32,6 +32,7 @@ assets.register(bundles)
 # -----------------------------------------------------------------------------
 @app.route('/')
 def index():
+	g.language = "fr"
 	response = make_response(render_template('home.html'))
 	return response
 
@@ -54,10 +55,9 @@ def page_de():
 def get_locale():
 	# try to guess the language from the user accept
 	# header the browser transmits.
-	print g.get("language")
-	if g.get("language"):
-		return g.get("language")
-	return request.accept_languages.best_match(['fr', 'de'])
+	if not g.get("language"):
+		g.language = request.accept_languages.best_match(['fr', 'de'])
+	return g.get("language")
 
 # -----------------------------------------------------------------------------
 #
