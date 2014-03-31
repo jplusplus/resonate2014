@@ -10,7 +10,7 @@
 # Creation : 26-Mar-2014
 # Last mod : 31-Mar-2014
 # -----------------------------------------------------------------------------
-from flask import Flask, render_template, request, send_file, \
+from flask import Flask, render_template, request, send_file, g, \
 	send_from_directory, Response, abort, session, redirect, url_for, make_response
 from flask.ext.assets import Environment, YAMLLoader
 from flask.ext.babel import Babel
@@ -35,6 +35,16 @@ def index():
 	response = make_response(render_template('home.html'))
 	return response
 
+@app.route('/fr.html')
+def page_fr():
+	g.language = "fr"
+	return index()
+
+@app.route('/de.html')
+def page_de():
+	g.language = "de"
+	return index()
+
 # -----------------------------------------------------------------------------
 #
 #    UTILS
@@ -44,7 +54,10 @@ def index():
 def get_locale():
 	# try to guess the language from the user accept
 	# header the browser transmits.
-	return request.accept_languages.best_match(['de', 'fr'])
+	print g.get("language")
+	if g.get("language"):
+		return g.get("language")
+	return request.accept_languages.best_match(['fr', 'de'])
 
 # -----------------------------------------------------------------------------
 #
