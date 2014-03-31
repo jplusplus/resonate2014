@@ -67,19 +67,14 @@ body, html:
 	transition-duration:.5s
 
 .footer:
-	padding-top: 100px
-	padding-bottom: 25px
-	.logos img:
-		height: 40px
-	.about:
-		clear:both
-		position:relative
-		img:
-			position:absolute
-			left:-40px
-			top: 5px
-			width:35px
-			margin-right:25px
-		.mentions:
-			font-size:.8em
+	background: #303030;
+	color: #999999;
+	margin-top: 40px;
+	padding: 20px 20px 40px;
+	text-align: center;
+	img:
+		height:60px
+	.row:
+		padding-top: 20px
+
 //EOF

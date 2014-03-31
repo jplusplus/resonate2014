@@ -32,7 +32,6 @@ assets.register(bundles)
 # -----------------------------------------------------------------------------
 @app.route('/')
 def index():
-	g.language = "fr"
 	response = make_response(render_template('home.html'))
 	return response
 
