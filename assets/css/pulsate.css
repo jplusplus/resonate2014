@@ -1,0 +1,106 @@
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.00;
+        height: 1px
+    }
+
+    5% {
+        opacity: 0.10;
+        height: 2px
+    }
+
+    10% {
+        opacity: 0.20;
+        height: 3px
+    }
+
+    15% {
+        opacity: 0.30;
+        height: 4px
+    }
+
+    20% {
+        opacity: 0.40;
+        height: 5px
+    }
+
+    25% {
+        opacity: 0.50;
+        height: 6px
+    }
+
+    30% {
+        opacity: 0.60;
+        height: 7px
+    }
+
+    35% {
+        opacity: 0.70;
+        height: 8px
+    }
+
+    40% {
+        opacity: 0.80;
+        height: 9px
+    }
+
+    45% {
+        opacity: 0.90;
+        height: 10px
+    }
+
+    50% {
+        opacity: 1.00;
+        height: 11px
+    }
+
+    55% {
+        opacity: 0.90;
+        height: 12px
+    }
+
+    60% {
+        opacity: 0.80;
+        height: 13px
+    }
+
+    65% {
+        opacity: 0.70;
+        height: 14px
+    }
+
+    70% {
+        opacity: 0.60;
+        height: 15px
+    }
+
+    75% {
+        opacity: 0.50;
+        height: 16px
+    }
+
+    80% {
+        opacity: 0.40;
+        height: 17px
+    }
+
+    85% {
+        opacity: 0.30;
+        height: 18px
+    }
+
+    90% {
+        opacity: 0.20;
+        height: 19px
+    }
+
+    95% {
+        opacity: 0.10;
+        height: 20px
+    }
+
+    100% {
+        opacity: 0.00;
+        height: 21px
+    }
+}

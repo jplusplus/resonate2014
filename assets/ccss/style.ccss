@@ -2,7 +2,7 @@ body, html:
 	height      : 100%
 	font-family : 'Helvetica Neue'
 
-.navbar:
+.header:
 	transition-property:background-color
 	transition-duration:.5s
 	&.reverse:
@@ -24,15 +24,30 @@ body, html:
 		padding-bottom        : 15px
 		img:
 			position: relative
+	.scroll-indicator:
+		position                          : absolute
+		bottom                            : 55px
+		right                             : 50%
+		-webkit-animation-name            : pulsate
+		-webkit-animation-duration        : 1.5s
+		-webkit-animation-timing-function : ease-in-out
+		-webkit-animation-iteration-count : infinite
+		font-size                         : 30px
+		margin-left                       : -25px
+		opacity                           : 0.5
+		width                             : 50px
+		text-align                        : center
 
 	.article:
 		font-size : 1.3em
 		max-width : 650px
 		padding   : 10px 0
+		line-height: 1.5em
 		.title:
 			font-size: 2em
 		.subtitle:
 			font-size:1.5em
+			line-height: 2em
 		.body:first-letter:
 			float       : left
 			font-size   : 500%
@@ -47,19 +62,24 @@ body, html:
 	height:500px
 	background-size: cover
 	background-position: center
+	background-image: url('')
+	transition-property: background-image
+	transition-duration:.5s
 
-.scroll-indicator:
-	position                          : absolute
-	bottom                            : 55px
-	right                             : 50%
-	-webkit-animation-name            : pulsate
-	-webkit-animation-duration        : 1.5s
-	-webkit-animation-timing-function : ease-in-out
-	-webkit-animation-iteration-count : infinite
-	font-size                         : 30px
-	margin-left                       : -25px
-	opacity                           : 0.5
-	width                             : 50px
-	text-align                        : center
-
+.footer:
+	padding-top: 100px
+	padding-bottom: 25px
+	.logos img:
+		height: 40px
+	.about:
+		clear:both
+		position:relative
+		img:
+			position:absolute
+			left:-40px
+			top: 5px
+			width:35px
+			margin-right:25px
+		.mentions:
+			font-size:.8em
 //EOF
