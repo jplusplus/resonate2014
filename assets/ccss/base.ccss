@@ -1,4 +1,5 @@
-
+a:
+	cursor: pointer
 .icon:
 	speak                  : none
 	font-style             : normal

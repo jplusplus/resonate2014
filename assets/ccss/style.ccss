@@ -4,10 +4,10 @@ body, html:
 
 .header:
 	transition-property:background-color
-	transition-duration:.5s
+	transition-duration:.75s
 	&.reverse:
 		background-color: "rgba(34, 34, 34, 0.22)"
-		border-color    : "rgba(34, 34, 34, 0.32)"
+		border-color    : "rgba(0, 0, 0, 0.12)"
 		.navbar-brand:
 			color: white
 		.navbar-nav>li>a:
