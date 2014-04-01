@@ -46,14 +46,14 @@ class Navigation
 				delete @media[offset]
 		# navigation follow the scroll
 		for title, i in @titlesOffset
-			if @activeChapter != $(@uis.titles[i]).attr("id") and window_position - $(window).height()/2 >= title and \
+			if window_position - $(window).height()/2 >= title   and \
 			(i + 1 >= @titlesOffset.length or window_position <= @titlesOffset[i+1])
 				@activateChapter($(@uis.titles[i]).attr("id"))
 
 	activateChapter: (chapter) =>
 		@uis.header_chapters.find("li").removeClass("active")
 		$("[data-target=#{chapter}]").parent("li").addClass("active")
-		window.location.replace("##{chapter}")
+		history.pushState(null, null, "##{chapter}")
 		@activeChapter = chapter
 
 	toggleHeaderStyle: (reverse) =>
