@@ -19,7 +19,8 @@ class Navigation
 		# bind events
 		$(window).on("resize", @relayout)
 		window.onscroll = @onScroll
-		$('a[data-target]').click(@onAncreClick)
+		$('.bookmark a').click(@onAncreClick)
+		$('body').scrollspy({ target: '.bookmark', offset:300 })
 
 	relayout: =>
 		that = this
@@ -32,7 +33,8 @@ class Navigation
 		@media        = {}
 		@titlesOffset = []
 		@uis.illustrations.each((e, i) -> that.media[$(this).offset().top] = $(this))
-		@uis.titles.each(       (e, i) -> that.titlesOffset.push($(this).offset().top))
+		# scrollbar
+		$('body').scrollspy("refresh")
 
 	onScroll: =>
 		# toggle header style
@@ -44,24 +46,12 @@ class Navigation
 				media.css
 					"background-image" : "url(#{media.data("src")})"
 				delete @media[offset]
-		# navigation follow the scroll
-		for title, i in @titlesOffset
-			if window_position - $(window).height()/2 >= title   and \
-			(i + 1 >= @titlesOffset.length or window_position <= @titlesOffset[i+1])
-				@activateChapter($(@uis.titles[i]).attr("id"))
 
-	activateChapter: (chapter) =>
-		@uis.header_chapters.find("li").removeClass("active")
-		$("[data-target=#{chapter}]").parent("li").addClass("active")
-		history.pushState(null, null, "##{chapter}")
-		@activeChapter = chapter
-
-	toggleHeaderStyle: (reverse) =>
-		@uis.header.toggleClass("reverse", reverse)
+	toggleHeaderStyle: (reverse) => @uis.header.toggleClass("reverse", reverse)
 
 	onAncreClick: (e) =>
 		ancre = $(e.currentTarget)
-		id = "#" + ancre.data("target")
+		id = ancre.attr("href")
 		offset = if $(id).offset() then $(id).offset().top - 50 else 0
 		$('html, body').animate({scrollTop: offset}, 'slow')
 		return false

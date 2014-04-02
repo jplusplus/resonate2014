@@ -38,6 +38,7 @@ def index():
 @app.route('/fr.html')
 def page_fr():
 	g.language = "fr"
+	return make_response(render_template('home.html'))
 	return index()
 
 @app.route('/de.html')
