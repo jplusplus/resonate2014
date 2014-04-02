@@ -33,8 +33,6 @@ class Navigation
 		@media        = {}
 		@titlesOffset = []
 		@uis.illustrations.each((e, i) -> that.media[$(this).offset().top] = $(this))
-		# scrollbar
-		$('body').scrollspy("refresh")
 
 	onScroll: =>
 		# toggle header style
