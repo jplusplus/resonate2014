@@ -18,7 +18,7 @@ body, html:
 	width:100%
 	.main_title:
 		text-align            : center
-		background-image      : url("../images/hall.JPG")
+		background-image      : url("../images/main.JPG")
 		width                 : 100%
 		background-size       : cover
 		background-position   : bottom
@@ -54,8 +54,8 @@ body, html:
 		text-align                        : center
 
 	.article:
-		font-size : 1.2em
-		max-width : 600px
+		font-size : 1.25em
+		max-width : 630px
 		padding   : 1em 1.5em
 		line-height: 1.5em
 		.title:
