@@ -17,3 +17,13 @@ a:
 	position  : relative
 	margin    : auto
 	text-align: center
+
+.right:
+	float:right
+
+
+.left:
+	float:left
+
+.x300:
+	width:300px

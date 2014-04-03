@@ -41,6 +41,10 @@ class Navigation
 		window_position = $(document).scrollTop() + $(window).height()
 		for offset, media of @media
 			if window_position - 100 >= offset
+				# show picture
+				# $("")
+				if media.height() <= 0
+					media.css "height", 400
 				media.css
 					"background-image" : "url(#{media.data("src")})"
 				delete @media[offset]
