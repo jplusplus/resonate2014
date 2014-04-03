@@ -17,7 +17,10 @@ body, html:
 	width:100%
 	.main_title:
 		text-align            : center
-		background-image      : url("../images/talk.jpg")
+		background-image      : url("../images/hall.JPG")
+		width:100%
+		background-size: cover
+		background-position:bottom
 		background-attachment :fixed
 		background-repeat     : "no-repeat"
 		padding-top           : 75px

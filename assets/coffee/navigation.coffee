@@ -42,12 +42,20 @@ class Navigation
 		for offset, media of @media
 			if window_position - 100 >= offset
 				# show picture
-				# $("")
-				if media.height() <= 0
-					media.css "height", 400
-				media.css
-					"background-image" : "url(#{media.data("src")})"
+				image = $("<img />").attr("src", media.data("src"))
+				image.load(@showImage(media, image))
 				delete @media[offset]
+
+	showImage: (media, image) =>
+		return (e) ->
+			if media.height() <= 0
+				console.log media.attr("width")
+				if media.attr("width")?
+					media.css "height", image.get(0).naturalHeight/image.get(0).naturalWidth * media.attr("width")
+					media.css "width", media.attr("width")
+				# media.css "width", 400
+			media.css
+				"background-image" : "url(#{media.data("src")})"
 
 	toggleHeaderStyle: (reverse) => @uis.header.toggleClass("reverse", reverse)
 
