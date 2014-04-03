@@ -1,6 +1,6 @@
 body, html:
 	height      : 100%
-	font-family : 'Helvetica Neue'
+	font-family : 'Georgia', 'serif'
 
 .header:
 	transition-property:background-color
@@ -12,6 +12,7 @@ body, html:
 			color: white
 		.navbar-nav>li>a:
 			color: white
+	font-size: .8em
 
 .main:
 	width:100%
@@ -27,15 +28,15 @@ body, html:
 		padding-bottom        : 15px
 		color                 : white
 		.lead:
-			font-size:6em
-			text-align:left
+			font-size:4em
+			text-align:center
 			top: 50%
 			margin: auto
 			position:relative
 			display: inline-block
 			text-shadow: "3px 2px 0px rgba(0, 0, 0, 0.45)"
 			.little:
-				font-size:.5em
+				font-size:.3em
 
 	.scroll-indicator:
 		color                             : white
@@ -53,12 +54,12 @@ body, html:
 		text-align                        : center
 
 	.article:
-		font-size : 1.3em
-		max-width : 650px
-		padding   : 10px 0
+		font-size : 1.2em
+		max-width : 600px
+		padding   : 1em 1.5em
 		line-height: 1.5em
 		.title:
-			font-size: 2em
+			font-size: 4em
 		.subtitle:
 			font-size:1.5em
 			line-height: 2em
