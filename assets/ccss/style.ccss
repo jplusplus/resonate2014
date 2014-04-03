@@ -18,17 +18,27 @@ body, html:
 	.main_title:
 		text-align            : center
 		background-image      : url("../images/hall.JPG")
-		width:100%
-		background-size: cover
-		background-position:bottom
-		background-attachment :fixed
+		width                 : 100%
+		background-size       : cover
+		background-position   : bottom
+		background-attachment : fixed
 		background-repeat     : "no-repeat"
 		padding-top           : 75px
 		padding-bottom        : 15px
-		img:
-			position: relative
+		color                 : white
+		.lead:
+			font-size:6em
+			text-align:left
+			top: 50%
+			margin: auto
+			position:relative
+			display: inline-block
+			text-shadow: "3px 2px 0px rgba(0, 0, 0, 0.45)"
+			.little:
+				font-size:.5em
+
 	.scroll-indicator:
-		color: #222322
+		color                             : white
 		position                          : absolute
 		bottom                            : 55px
 		right                             : 50%

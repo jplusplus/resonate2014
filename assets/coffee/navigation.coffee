@@ -24,11 +24,12 @@ class Navigation
 
 	relayout: =>
 		that = this
-		# logo
-		logo_height = $(window).height() - @uis.title.offset().top - 105
-		logo_width  = $(window).width() - 50
-		@uis.logo_intro.css
-			height: Math.min(logo_height, logo_width)
+		# main page
+		main_page_height = $(window).height() - @uis.title.offset().top
+		# logo_width  = $(window).width() - 50
+		# @uis.logo_intro.css
+			# height: Math.min(logo_height, logo_width)
+		@uis.title.css 'height', main_page_height
 		# media
 		@media        = {}
 		@titlesOffset = []
