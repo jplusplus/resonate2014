@@ -74,11 +74,13 @@ body, html:
 			left        : 0
 
 .illustration:
+	background-color: white
 	background-size    : cover
 	background-position: center
 	background-image   : url('')
-	transition-property: background-image
+	transition-property: opacity
 	transition-duration: .5s
+	opacity: 0
 	&.inside:
 		margin:20px
 	&.full:
