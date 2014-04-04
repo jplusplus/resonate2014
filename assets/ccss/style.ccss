@@ -21,6 +21,9 @@ body, html:
 		background-image      : url("../images/main.JPG")
 		width                 : 100%
 		background-size       : cover
+		transition-duration   : .5s
+		transition-property   : opacity
+		opacity               : 0
 		background-position   : top
 		background-attachment : fixed
 		background-repeat     : "no-repeat"
@@ -75,11 +78,13 @@ body, html:
 			left        : 0
 
 .illustration:
+	background-color: white
 	background-size    : cover
 	background-position: center
 	background-image   : url('')
-	transition-property: background-image
+	transition-property: opacity
 	transition-duration: .5s
+	opacity: 0
 	&.inside:
 		margin:20px
 	&.full:

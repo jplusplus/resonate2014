@@ -16,6 +16,10 @@ class Navigation
 
 		@relayout()
 
+		# show title image when loaded
+		image = $("<img/>").attr("src", @uis.title.css("background-image").slice(4, -1))
+		image.load(@showImage(@uis.title))
+
 		# bind events
 		$(window).on("resize", @relayout)
 		window.onscroll = @onScroll
@@ -26,9 +30,6 @@ class Navigation
 		that = this
 		# main page
 		main_page_height = $(window).height() - @uis.title.offset().top
-		# logo_width  = $(window).width() - 50
-		# @uis.logo_intro.css
-			# height: Math.min(logo_height, logo_width)
 		@uis.title.css 'height', main_page_height
 		# media
 		@media        = {}
@@ -50,13 +51,14 @@ class Navigation
 	showImage: (media, image) =>
 		return (e) ->
 			if media.height() <= 0
-				console.log media.attr("width")
-				if media.attr("width")?
+				if media.attr("width")? and image?
 					media.css "height", image.get(0).naturalHeight/image.get(0).naturalWidth * media.attr("width")
 					media.css "width", media.attr("width")
-				# media.css "width", 400
+			if media.data("src")?
+				media.css
+					"background-image" : "url(#{media.data("src")})"
 			media.css
-				"background-image" : "url(#{media.data("src")})"
+				"opacity" : 1
 
 	toggleHeaderStyle: (reverse) => @uis.header.toggleClass("reverse", reverse)
 
