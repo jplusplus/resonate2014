@@ -24,6 +24,7 @@ body, html:
 		transition-duration   : .5s
 		transition-property   : opacity
 		opacity               : 0
+		height                : 2000px
 		background-position   : top
 		background-attachment : fixed
 		background-repeat     : "no-repeat"
