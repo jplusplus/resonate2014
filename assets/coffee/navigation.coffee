@@ -16,7 +16,9 @@ class Navigation
 
 		@relayout()
 
-
+		# show title image when loaded
+		image = $("<img/>").attr("src", @uis.title.css("background-image").slice(4, -1))
+		image.load(@showImage(@uis.title))
 
 		# bind events
 		$(window).on("resize", @relayout)
@@ -49,12 +51,13 @@ class Navigation
 	showImage: (media, image) =>
 		return (e) ->
 			if media.height() <= 0
-				if media.attr("width")?
+				if media.attr("width")? and image?
 					media.css "height", image.get(0).naturalHeight/image.get(0).naturalWidth * media.attr("width")
 					media.css "width", media.attr("width")
-				# media.css "width", 400
+			if media.data("src")?
+				media.css
+					"background-image" : "url(#{media.data("src")})"
 			media.css
-				"background-image" : "url(#{media.data("src")})"
 				"opacity" : 1
 
 	toggleHeaderStyle: (reverse) => @uis.header.toggleClass("reverse", reverse)
