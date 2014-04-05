@@ -76,24 +76,25 @@ body, html:
 			position    : relative
 			top         : 1px
 			left        : 0
-		.quote:
-			padding     : 10px 0px
-			color       : #575757
-			font-size   : 2em
-			line-height : 1em
-			.body:before:
-				content   :'\"\\201C\"'
-				font-size : 2em
-			.body:after:
-				content   :'\"\\201D\"''
-				font-size : 1em
-			& .author:
-				text-align  : right
-				font-weight : bold
-				font-family : "Helvetica Neue, Helvetica"
-				font-size   : 0.4em
-				&:before:
-					content:'\"\\2014\\00a0\"'
+
+.quote:
+	padding     : 10px 0px
+	color       : #575757
+	font-size   : 2em
+	line-height : 1em
+	.body:before:
+		content   :'\"\\201C\"'
+		font-size : 2em
+	.body:after:
+		content   :'\"\\201D\"''
+		font-size : 1em
+	& .author:
+		text-align  : right
+		font-weight : bold
+		font-family : "Helvetica Neue, Helvetica"
+		font-size   : 0.4em
+		&:before:
+			content:'\"\\2014\\00a0\"'
 
 .illustration:
 	background-color: white
@@ -102,6 +103,7 @@ body, html:
 	background-image   : url('')
 	transition-property: opacity
 	transition-duration: .5s
+	position           : relative
 	opacity: 0
 	&.inside:
 		margin:20px
@@ -112,6 +114,19 @@ body, html:
 		margin-right:0 !important
 	&.left:
 		margin-left:0 !important
+	&:hover:
+		.legend:
+			opacity: 1
+	.legend:
+		opacity             : 0
+		font-size           : 1.3em
+		transition-property : opacity
+		transition-duration : .25s
+		position            : absolute
+		bottom              : 0
+		width               : 100%
+		padding             : 5px 20px
+		background-color    : "rgba(255,255,255,.6)"
 
 .footer:
 	background: #303030;
