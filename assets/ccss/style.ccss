@@ -3,15 +3,21 @@ body, html:
 	font-family : 'Georgia', 'serif'
 
 .header:
-	transition-property:background-color
+	transition-property:background-color, border-color
 	transition-duration:.75s
 	&.reverse:
 		background-color: "rgba(34, 34, 34, 0.22)"
 		border-color    : "rgba(0, 0, 0, 0.12)"
 		.navbar-brand:
 			color: white
-		.navbar-nav>li>a:
-			color: white
+		.navbar-nav:
+			.active>a:
+				background-color: "rgba(0, 0, 0, 0.7)"
+			>li>a:
+				color: white
+	.navbar-nav>li>a:
+		padding-left:  10px
+		padding-right:  10px
 	font-size: .8em
 
 .main:
@@ -24,6 +30,7 @@ body, html:
 		transition-duration   : .5s
 		transition-property   : opacity
 		opacity               : 0
+		height                : 2000px
 		background-position   : top
 		background-attachment : fixed
 		background-repeat     : "no-repeat"
@@ -31,13 +38,12 @@ body, html:
 		padding-bottom        : 15px
 		color                 : white
 		.lead:
-			font-size:4em
-			text-align:center
-			top: 50%
-			margin: auto
-			position:relative
-			display: inline-block
-			text-shadow: "3px 2px 0px rgba(0, 0, 0, 0.45)"
+			font-size   : 4em
+			text-align  : center
+			top         : 50%
+			margin      : auto
+			position    : relative
+			text-shadow : "3px 2px 0px rgba(0, 0, 0, 0.45)"
 			.little:
 				font-size:.3em
 
@@ -77,6 +83,25 @@ body, html:
 			top         : 1px
 			left        : 0
 
+.quote:
+	padding     : 10px 0px
+	color       : #575757
+	font-size   : 2em
+	line-height : 1em
+	.body:before:
+		content   :'\"\\201C\"'
+		font-size : 2em
+	.body:after:
+		content   :'\"\\201D\"''
+		font-size : 1em
+	& .author:
+		text-align  : right
+		font-weight : bold
+		font-family : "Helvetica Neue, Helvetica"
+		font-size   : 0.4em
+		&:before:
+			content:'\"\\2014\\00a0\"'
+
 .illustration:
 	background-color: white
 	background-size    : cover
@@ -84,6 +109,8 @@ body, html:
 	background-image   : url('')
 	transition-property: opacity
 	transition-duration: .5s
+	position           : relative
+	margin-bottom      : 30px // because of the legend
 	opacity: 0
 	&.inside:
 		margin:20px
@@ -94,6 +121,11 @@ body, html:
 		margin-right:0 !important
 	&.left:
 		margin-left:0 !important
+	.legend:
+		font-size   : .8em
+		position    : absolute
+		bottom      : -25px
+		font-weight : bold
 
 .footer:
 	background: #303030;
