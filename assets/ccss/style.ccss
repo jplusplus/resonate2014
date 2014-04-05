@@ -12,6 +12,9 @@ body, html:
 			color: white
 		.navbar-nav>li>a:
 			color: white
+	.navbar-nav>li>a:
+		padding-left:  10px
+		padding-right:  10px
 	font-size: .8em
 
 .main:
@@ -32,13 +35,12 @@ body, html:
 		padding-bottom        : 15px
 		color                 : white
 		.lead:
-			font-size:4em
-			text-align:center
-			top: 50%
-			margin: auto
-			position:relative
-			display: inline-block
-			text-shadow: "3px 2px 0px rgba(0, 0, 0, 0.45)"
+			font-size   : 4em
+			text-align  : center
+			top         : 50%
+			margin      : auto
+			position    : relative
+			text-shadow : "3px 2px 0px rgba(0, 0, 0, 0.45)"
 			.little:
 				font-size:.3em
 

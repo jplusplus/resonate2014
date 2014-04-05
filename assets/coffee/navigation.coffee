@@ -17,7 +17,7 @@ class Navigation
 		@relayout()
 
 		# show title image when loaded
-		image = $("<img/>").attr("src", @uis.title.css("background-image").slice(4, -1))
+		image = $("<img/>").attr("src", @uis.title.css("background-image").slice(4, -1).replace(/"/g, ""))
 		image.load(@showImage(@uis.title))
 
 		# bind events
