@@ -3,7 +3,7 @@ body, html:
 	font-family : 'Georgia', 'serif'
 
 .header:
-	transition-property:background-color
+	transition-property:background-color, border-color
 	transition-duration:.75s
 	&.reverse:
 		background-color: "rgba(34, 34, 34, 0.22)"
