@@ -8,7 +8,6 @@ class Navigation
 			header_chapters : $(".header .chapters")
 			title           : $(".main_title")
 			logo_intro      : $("img.logo")
-			titles          : $(".anchor[id]")
 			illustrations   : $(".illustration")
 		@media        = {}
 		@titlesOffset = []
