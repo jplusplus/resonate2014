@@ -64,7 +64,7 @@ class Navigation
 	onAncreClick: (e) =>
 		ancre = $(e.currentTarget)
 		id = ancre.attr("href")
-		offset = if $(id).offset() then $(id).offset().top - 50 else 0
+		offset = if $(id).offset() then $(id).offset().top - @uis.header.outerHeight() else 0
 		$('html, body').animate({scrollTop: offset}, 'slow')
 		return false
 
