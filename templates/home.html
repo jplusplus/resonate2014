@@ -35,10 +35,12 @@
 	<div class="illustration full" data-src="{{ url_for("static", filename="images/belgrade.JPG") }}">
 	</div>
 	<div class="article container anchor" id="belgrade">
-		<div class="title">Belgrade - a new Berlin</div>
 	<iframe width='100%' height='520' frameborder='0' src='http://vied12.cartodb.com/viz/e94c5cd0-bcf0-11e3-b563-0e230854a1cb/embed_map?title=false&description=false&search=false&shareable=false&cartodb_logo=true&layer_selector=false&legends=false&scrollwheel=false&fullscreen=false&sublayer_options=1&sql=&zoom=2&center_lat=16.13026201203477&center_lon=8.61328125' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 	<!-- <div class="illustration full" data-src="{{ url_for("static", filename="images/hall.JPG") }}"> -->
+	
 	<div class="article container" id="belgrade">
+		<div class="title">Belgrade - a new Berlin</div>
+
 		<div class="body">
 			{% trans %}
 			<p><span class="lettrine">B</span>elgrade has been announced to us as the new Berlin. Serbia was hit hard by the financial crisis. That's the first thing locals mention. Berlin's flamboyant mayor Klaus Wowereit is notoriously close to his city's cultural class. Dragan Đilas, Belgrade's mayor until late 2013, is a mass media mogul, who has brought Big Brother to Serbia. Performance artists Marina Abramović and Milica Tomic are from Belgrade. The Museum of Contemporary Arts collection holds works by Salvador Dalí, Andy Warhol, George Maciunas, and Hannah Wilke. When it opened in 1958 it was one of Europe's first national museums of modern art. Since it closed for renovation works in 2007 it has been slowly transforming into a ruin. The government funding has run out.</p>
@@ -58,23 +60,86 @@
 	<div class="illustration full" data-src="{{ url_for("static", filename="images/workshop.JPG") }}"> </div>
 
 	<div class="article container" id="bohemia">
+		<div class="title">The Code Bohemia</div>
 		<div class="body">
-			<p><span class="lettrine">S</span>pace not taken up by laptops is covered with cables, DUCT tape, and circuit boards. Multicolored running shoes navigate their way through narrow staircases filled with smoothie-fueled chatter. A mix of games, performances, data visualizations, interactive installations, and artificial intelligence projects is presented in front of bulging lecture theatres. The digital arts circus has put up its tents in Belgrade. It's the first day of Resonate festival. The new-media bohemia has gathered to share ideas, produce artifacts, and teach each other in workshops. Most of them make the source code of their art public making an essential part of their creative process visible to the world. In many cases anybody could grab and remix it or even sell it as their own.
-
-			tellus nisl blandit tortor, porttitor congue dui risus ut dolor. Vivamus a massa quam. Sed tincidunt consequat placerat. Aliquam lobortis sit amet nibh a condimentum.
-			Vivamus nec tellus velit. Quisque metus purus, eleifend in pharetra a, vehicula vel dolor. Nullam mollis vehicula lacus, eu ultricies dolor pulvinar ac. Phasellus sodales dui sit amet erat commodo, id aliquet purus dictum. Etiam lacus neque, semper sit amet sapien ac, vulputate sodales orci. Duis posuere congue magna eget egestas.
-
-			</p>
+			<p><span class="lettrine">S</span>pace not taken up by laptops is covered with cables, DUCT tape, and circuit boards. Multicolored running shoes navigate their way through narrow staircases filled with smoothie-fueled chatter. A mix of games, performances, data visualizations, interactive installations, and artificial intelligence projects is presented in front of bulging lecture theatres. The digital arts circus has put up its tents in Belgrade. It's the first day of Resonate festival. The new-media bohemia has gathered to share ideas, produce artifacts, and teach each other in workshops.</p>
 			<div data-src="{{url_for("static", filename="images/dehors.JPG")}}" class="illustration full">
 				<div class="legend">legend © 2014 Resonate</div>
 			</div>
+			<p>
+			Some participants have already arrived a couple of days before the official launch of the festival. They've been trading insights in workshops on coding with light, face manipulation, data visualization, or specific frameworks for algorithmic art. They often know each other from previous collaborations or hackathons that rarely last longer than a couple of days. The new-media art community is small. Few coders work with the software tools code artists develop. Programming environments like OpenFrameworks, Processing, Cinder, and vvvv are exotic concepts even for regular programmers. At Resonate festival they are omnipresent. Artists use them to control light, sound, visual elements on screen, and program interactions involving the audience or physical objects. Many manipulate so called Arduinos, mini-controllers that transform inputs from sensors into outputs to lamps, motors, or musical instruments.	
+			</p>
 			
-			<p>Suspendisse vitae erat consequat magna euismod ultricies rutrum ac augue. Donec vehicula et nisi in egestas. Integer risus tellus, vehicula id massa eu, commodo volutpat risus. Suspendisse suscipit lacus sit amet ipsum mattis, id venenatis dolor facilisis. Sed volutpat purus nec tellus varius volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<div class="quote">
+ 				<div class="body">We build stuff for 3 weeks and then people come and break it.</div>
+ 				<div class="author">Douglas Edric Stanley, Professor of Digital Arts, Aix-en-Provence</div>
+ 			</div>
 
+			<p>There's a video, in which the Japanese artist Daito Manabe makes his face dance to music, that participants keep referring to. Manabe's goal is to create a device that automatically transmits the expression of one face onto another. For one of the early test performances Manabe sticks myoelectric sensors, usually used for so medical examinations testing diagnosing muscle weakness, and uses electric impulse generators to make his facial muscles move to music.</p>
+
+			<!-- embed Daito Manabe video "electric stimulus on face" here: http://vimeo.com/7860021 or https://www.youtube.com/watch?v=pLAma-lrJRM
+				<div class="legend">legend © 2014 Resonate</div>-->
+
+			<div class="center">
+				<iframe src="//player.http://vimeo.com/7860021" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<div class="legend">legend © 2014 Resonate</div>
+			</div>
+
+			<p>Technological advances and the creation of new devices constantly change the way new-media artists work. They provide them with new physical and digital materials and create the social shifts their works reflect. Google Glass is ostensively absent at Resonate festival and speakers at panels loathe its privacy infringing features. But most new-media artists are obsessed with data. The more sensors collect, the more raw material for data-based art. Some run apps on their phones which meticulously measure every step they make. Graphic designer Nicholas Felton even publishes Personal Annual Reports that reflect his life in charts and visualize his daily routines.</p>
 		</div>
 
-		<!-- <div class="center"><iframe src="//player.vimeo.com/video/68710394" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div> -->
+
+		<!-- <div class="center"><iframe src="//player.http://vimeo.com/7860021" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div> -->
 	</div>
+	<div class="illustration full" data-src="{{ url_for("static", filename="images/belgrade.JPG") }}">
+	<div class="article container" id="opensource">
+		<div class="body">
+			{% trans %}
+			<p><span class="lettrine">T</span>he default behaviour of many new-media artists is open source. That means that they often share the code of their art works with the public and allow people to build upon it - often even before they are completed. They rely on programming languages and environments that are collectively developed. Resonate festival is not an exhibition or an art fair. Its open format, discussions, and space for creation remind more of a university. </p>
+
+			<p>Kyle McDonald, Daito Manabe, and Klaus Obermaier sit on stage behind a table that looks as if it was build out of gigantic wooden bricks. The three artists have just finished their collaboration on a code-based performance piece they have called "Transcranial". It mixes dancing, distortion of filmed body parts, and Manabe's notorious electric impulses on the performer's face. They show fragments that have inspired their work, such as a <a href="http://www.newscientist.com/videoredirect?bcpid=2227271001&bckey=AQ~~,AAAAADqBmN8~,Yo4S_rZKGX0rYg6XsV7i3F9IB8jNBoiY&bctid=899434793001">video</a> of a reporter who gets his speech centre temporarily switched off by a magnet in front of a camera.</p>
+
+			<p>They also demo bits and pieces of the code they have written for it. At the end of their talk they share a link that points to the <a href="https://github.com/kylemcdonald/transcranial">public repository</a>, which hosts the performance's source code.</p>
+
+			<div class="quote">
+ 				<div class="body">Thanks for fixing our code and thanks for not adding any glitches that will make people destroy their brains</div>
+ 				<div class="author">Kyle McDonald, F.A.T, New York</div>
+ 			</div>
+
+ 			<p>McDonald, who is a fellow at the Free Art and Technology Lab (F.A.T.), even accepts to work for less money as long as his code remains open to the public. F.A.T is a small collective of artists who criticize intellectual property law and produce pop culture for the public domain. Buzzfeed founder Jonah Peretti is among its members. In 2012 New York Magazine art critic Rachel Wolff <a href="http://nymag.com/arts/art/rules/sarah-sze-2012-4/">recommended</a> aspiring artists to "make art that's difficult to collect". The new-media bohemia is following this recipe rather closely.</p>
+
+			{% endtrans %}
+		</div>
+	<div class="illustration full" data-src="{{ url_for("static", filename="images/belgrade.JPG") }}">
+	<div class="article container" id="market">
+		<div class="body">
+			{% trans %}
+			<p><span class="lettrine">T</span>he global art market is worth around <a href="http://www.bloomberg.com/news/2014-03-12/global-art-market-surged-to-66-billion-in-2013-report.html">€50 billion</a>. New-media art has been missing out. The first computer art exhibitions were staged in the 1960s. The first major art auction dedicated to new-media art was only organized in autumn 2013. It was hosted by Phillips, one of the traditional fine arts auction houses but the 16 works on display have only brought in the modest sum of <a href="http://www.forbes.com/sites/katherynthayer/2013/10/22/going-once-going-twice-phillips-puts-gifs-on-auction/">$90,600</a>. Even paintings by newcomer artists featured in the company's <a href="link to auction">"more accessible" auctions</a> sell for the double. The price for a Banksy can be $500,000.</p>
+
+			<p>The new-media bohemia publishes its work and shares code online. It does not seem to care about the rules of the art market whose thousands of collectors crave after scarcity and exclusivity. But they also have to pay their rent. When a collector offers to buy new-media art shared on the internet, artists have agreed to transfer the ownership of the pieces domain or to take it <a href="http://ca.blouinartinfo.com/visual-arts/article/38508-can-digital-art-make-money">offline</a>.Wutang Clan have taken a more radical approach by producing only <a href="http://www.forbes.com/sites/zackomalleygreenburg/2014/03/26/why-wu-tang-will-release-just-one-copy-of-its-secret-album/">one copy</a> of their latest album.
+
+			<p>Andreas Müller, an artist from London, is packing up four black boxes that read "Oculus Development Kit". Their content looks like inflated ski goggles with an inside facing tablet screen in the visual field. He has finished his workshop on Oculus Rift, the virtual reality headset that was bought by Facebook for $2 billion. The founders of Oculus had turned to the crowdfunding platform Kickstarter to raise $250,000 - they collected ten times as much. Some of the participants at Resonate have managed to do the same for their products - amongst them a print magazine called HOLO, and NeoLucida, a prism on a stick that helps make realistic drawings.</p>
+
+			<p>If Resonate were a music festival, Aaron Koblin would be the headliner. The organizers have reserved the very last slot for his talk. His 2014 TED talk has been viewed over 1 Million times and his work has been shown at MoMa in New York and Centre Pompidou in Paris. Aaron Koblin's day job is at Google, where he directs the Data Arts Team. His data visualization and crowdsourcing pieces make playful use of the ecosystem created by technology giants. Amazon runs a platform called Mechanical Turk, where anybody can hire microworkers for simple tasks.</p>
+
+			<!-- enter screenshot of Aaron Koblin TED talk, Why?-->
+
+			<p>Aaron Koblin decided to make people draw sheep. One sheep cost him $0.02. 7599 participated, making an average hourly wage of $0.69. Only one asked in computer-mouse-drawn letters: "Why? Why are you doing this?"</p>
+		
+			<div class="quote">
+ 				<div class="body">T[...]GifPop [...] allow[ed] me to confidently bring my very specific lack of taste and appalling aesthetic judgment to the fine-art table.</div>
+ 				<div class="author"><a href="http://www.canadianart.ca/features/2014/03/06/lorna-mills-interview/#sthash.lfjeOWmf.dpuf">Lorna Mills</a>, internet artist, New York</div>
+ 			</div>
+
+			<p>Rachel Binx and Sha Hwang used to visualize data for clients such as MTV or Oprah Winfrey. Then they quit and built Meshu, which is an online shop selling customized jewelry. The form of the jewels is based on a map of places that matter to the buyer. Their next commercial project Gifpop helps turn Gifs from digital artifacts into physical objects. The outcome is called Gifpop, an online shop offering to print Gif-files on lenticular cards, which change their appearance when they get tilted. Now, they have also become Gif-gallerists selling works created by artists they display in the shop. They share the profits 80 to 20 - in favour of the artist. "Paying artists for their work is really rewarding," Binx explains at the end of the session, "I love writing checks to people".</p>
+
+			{% endtrans %}
+		</div>
+
+
+
+
+
 </div><!-- /.container -->
 
 {% endblock %}
