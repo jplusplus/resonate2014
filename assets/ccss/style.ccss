@@ -11,7 +11,7 @@ body, html:
 
 .header:
 	transition-property:background-color, border-color
-	transition-duration:.75s
+	transition-duration:.25s
 	&.reverse:
 		background-color: "rgba(34, 34, 34, 0.22)"
 		border-color    : "rgba(0, 0, 0, 0.12)"
@@ -80,7 +80,7 @@ body, html:
 		.subtitle:
 			font-size:1.5em
 			line-height: 2em
-		.body:first-letter:
+		>.body:first-letter:
 			float       : left
 			font-size   : 500%
 			line-height : .894
@@ -100,13 +100,18 @@ body, html:
 	color       : #575757
 	font-size   : 2em
 	line-height : 1em
-	.body:before:
+	float:left
+	&:before:
 		content   :'\"\\201C\"'
 		font-size : 2em
-	.body:after:
-		content   :'\"\\201D\"''
-		font-size : 1em
+	.body:
+		width: 90%
+		float:right
+		&:after:
+			content   :'\"\\201D\"''
+			font-size : 1em
 	& .author:
+		clear: both
 		text-align  : right
 		font-weight : bold
 		font-family : "Helvetica Neue, Helvetica"
