@@ -89,7 +89,7 @@ body, html:
 				text-decoration:underline
 
 .quote:
-	padding     : 10px 0px
+	padding     : 1em .5em
 	color       : #575757
 	font-size   : 2em
 	line-height : 1em
