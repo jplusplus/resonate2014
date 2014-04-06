@@ -2,13 +2,6 @@ body, html:
 	height      : 100%
 	font-family : 'Georgia', 'serif'
 
-
-@media screen and (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2):
-	//@media only screen and (min-device-width : 768px) and (max-device-width : 1024px):
-	body:
-		font-size: 6em
-		color: red
-
 .header:
 	transition-property:background-color, border-color
 	transition-duration:.25s
