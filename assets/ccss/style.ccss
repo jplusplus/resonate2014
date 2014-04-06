@@ -108,7 +108,7 @@ body, html:
 		text-align  : right
 		font-weight : bold
 		font-family : "Helvetica Neue, Helvetica"
-		font-size   : 0.4em
+		font-size   : 0.3em
 		&:before:
 			content:'\"\\2014\\00a0\"'
 
