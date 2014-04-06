@@ -1,4 +1,4 @@
-@media screen and (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2){
+@media screen and (-webkit-device-pixel-ratio: 2){
 	body {
 		font-size: 3em !important;
 	}
