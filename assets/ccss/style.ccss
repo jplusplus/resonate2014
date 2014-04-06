@@ -11,7 +11,7 @@ body, html:
 
 .header:
 	transition-property:background-color, border-color
-	transition-duration:.75s
+	transition-duration:.25s
 	&.reverse:
 		background-color: "rgba(34, 34, 34, 0.22)"
 		border-color    : "rgba(0, 0, 0, 0.12)"
