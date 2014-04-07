@@ -55,7 +55,7 @@ body, html:
 	.scroll-indicator:
 		color                             : white
 		position                          : absolute
-		bottom                            : 55px
+		bottom                            : 25px
 		right                             : 50%
 		-webkit-animation-name            : pulsate
 		-webkit-animation-duration        : 1.5s

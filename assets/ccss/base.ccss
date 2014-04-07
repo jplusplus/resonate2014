@@ -9,9 +9,12 @@ a:
 	line-height            : 1
 	-webkit-font-smoothing : antialiased
 	&.icon-arrow-down:
-		font-size:2em
-		&:before:
-			content:'\"\\2335\"'
+		background-image: "url(../images/arrow.png)"
+		width:34px
+		height:28px
+		//font-size:2em
+		//&:before:
+		//	content:'\"\\2335\"'
 
 .center:
 	position  : relative
