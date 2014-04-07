@@ -79,10 +79,14 @@ class Navigation
 					"background-position": media.data("position")
 			media.css
 				"opacity" : 1
+			$('body').each ->
+				$spy = $(this).scrollspy('refresh')
 
 	showIframe: (media, iframe) =>
 		return (e) ->
 			media.css("opacity", 1)
+			$('body').each ->
+				$spy = $(this).scrollspy('refresh')
 
 	toggleHeaderStyle: (reverse) =>
 		if reverse
