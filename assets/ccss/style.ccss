@@ -94,10 +94,13 @@ body, html:
 	font-size   : 2em
 	line-height : 1em
 	float:left
-	&:before:
-		content   :'\"\\201C\"'
-		font-size : 2em
 	.body:
+		position:relative
+		&:before:
+			content   :'\"\\201C\"'
+			font-size : 2em
+			left: "-.5em"
+			position:absolute
 		width: 90%
 		float:right
 		&:after:
