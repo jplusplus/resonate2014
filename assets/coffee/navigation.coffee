@@ -4,6 +4,7 @@ class Navigation
 
 	constructor: () ->
 		@uis = 
+			brand           : $(".navbar-brand")
 			header          : $(".header")
 			header_chapters : $(".header .chapters")
 			title           : $(".main_title")
@@ -73,7 +74,13 @@ class Navigation
 		return (e) ->
 			media.css("opacity", 1)
 
-	toggleHeaderStyle: (reverse) => @uis.header.toggleClass("reverse", reverse)
+	toggleHeaderStyle: (reverse) =>
+		if reverse
+			@uis.brand.find("span").addClass("hidden")
+			@uis.header.addClass("reverse")
+		else
+			@uis.brand.find("span").removeClass("hidden")
+			@uis.header.removeClass("reverse")
 
 	onAncreClick: (e) =>
 		ancre = $(e.currentTarget)
