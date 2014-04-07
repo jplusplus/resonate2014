@@ -55,7 +55,7 @@ body, html:
 		.lead:
 			font-size   : 4em
 			text-align  : center
-			top         : 50%
+			top         : 30%
 			margin      : auto
 			position    : relative
 			// text-shadow : "3px 2px 0px rgba(0, 0, 0, 0.45)"
