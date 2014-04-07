@@ -173,5 +173,10 @@ body, html:
 		height:60px
 	.row:
 		padding-top: 20px
+	a:
+		text-decoration:underline
+		color: inherit
+		&:hover:
+		text-decoration:underline
 
 //EOF
