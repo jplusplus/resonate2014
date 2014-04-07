@@ -10,6 +10,7 @@ class Navigation
 			title           : $(".main_title")
 			logo_intro      : $("img.logo")
 			media           : $(".illustration, .iframe")
+			iframes         : $(".iframe")
 		@media        = {}
 		@titlesOffset = []
 		activeTarget  = undefined
@@ -25,7 +26,6 @@ class Navigation
 		$(window).resize(lazy_relayout)
 		window.onscroll = @onScroll
 		$('.bookmark a').click(@onAncreClick)
-		$('body').scrollspy({ target: '.bookmark', offset:300 })
 
 	relayout: =>
 		if @_width == $(window).width()
@@ -35,9 +35,15 @@ class Navigation
 		# main page
 		main_page_height = $(window).height() - @uis.title.offset().top
 		@uis.title.css 'height', main_page_height
+		# set media height to allow scroll
+		@uis.iframes.each ->
+			$(this).css("height", $(this).width() /parseFloat($(this).data("ratio")))
+		@uis.media.each ->
+			$(this).css("height", $(this).width() / parseFloat($(this).data("ratio")))
 		# media
 		@media        = {}
 		@titlesOffset = []
+		$('body').scrollspy({ target: '.bookmark', offset:300 })
 		@uis.media.each((e, i) -> that.media[$(this).offset().top] = $(this))
 
 	onScroll: =>
@@ -63,12 +69,6 @@ class Navigation
 	showImage: (media, image) =>
 		return (e) ->
 			body = $("<div/>").addClass("body")
-			if media.parents(".article").length
-				body.css "height", image.get(0).naturalHeight/image.get(0).naturalWidth * media.width()
-			if media.height() <= 0
-				if media.attr("width")? and image?
-					body.css "height", image.get(0).naturalHeight/image.get(0).naturalWidth * media.attr("width")
-					body.css "width", media.attr("width")
 			if media.data("src")?
 				media.find(".body").remove()
 				media.prepend(body)

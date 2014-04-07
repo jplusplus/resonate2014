@@ -155,9 +155,9 @@ body, html:
 
 	&.inside:
 		margin: 20px
-	&.full .body:
+	&.full, &.full .body:
 		width: 100%
-		height:500px
+		height: 100%
 	&.right:
 		margin-right:0 !important
 	&.left:
