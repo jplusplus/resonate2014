@@ -28,8 +28,8 @@ body, html:
 				&:hover:
 					color:white
 	.navbar-nav>li>a:
-		padding-left:  10px
-		padding-right:  10px
+		padding-left: 10px
+		padding-right: 10px
 	font-size: .8em
 
 .main:
