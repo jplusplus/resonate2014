@@ -33,3 +33,5 @@ a:
 
 .navbar-default .navbar-toggle:
 	border-color: transparent
+	&:hover, &:focus:
+		background-color:inherit
