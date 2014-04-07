@@ -114,7 +114,7 @@ body, html:
 		font-family : "Helvetica Neue, Helvetica"
 		font-size   : 0.3em
 		&:before:
-			content:'\"\\2014\\00a0\"'
+			content:'\"\\2014\"'
 
 .illustration:
 	background-color: white
