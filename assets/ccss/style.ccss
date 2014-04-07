@@ -12,9 +12,13 @@ body, html:
 			color: white
 		.navbar-nav:
 			.active>a:
+				&:hover:
+					color:white
 				background-color: "rgba(0, 0, 0, 0.7)"
 			>li>a:
 				color: white
+				&:hover:
+					color:white
 	.navbar-nav>li>a:
 		padding-left:  10px
 		padding-right:  10px
@@ -36,6 +40,7 @@ body, html:
 		background-repeat     : "no-repeat"
 		padding-top           : 75px
 		padding-bottom        : 15px
+		margin-bottom         : 30px
 		color                 : white
 		.lead:
 			font-size   : 4em
@@ -50,7 +55,7 @@ body, html:
 	.scroll-indicator:
 		color                             : white
 		position                          : absolute
-		bottom                            : 55px
+		bottom                            : 25px
 		right                             : 50%
 		-webkit-animation-name            : pulsate
 		-webkit-animation-duration        : 1.5s
@@ -113,7 +118,7 @@ body, html:
 		font-family : "Helvetica Neue, Helvetica"
 		font-size   : 0.3em
 		&:before:
-			content:'\"\\2014\\00a0\"'
+			content:'\"\\2014\"'
 
 .illustration:
 	background-color: white

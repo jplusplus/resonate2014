@@ -48,7 +48,7 @@ class Navigation
 					image.load(@showImage(media, image))
 				else
 					# show iframe
-					iframe = $("<iframe></iframe>").attr("src", media.data("src"))
+					iframe = $("<iframe></iframe>").attr("src", media.data("src")).attr("frameborder", 0)
 					media.html(iframe)
 					iframe.attr("width", "100%")
 					iframe.attr("height", iframe.width() /parseInt(media.data("ratio")))
