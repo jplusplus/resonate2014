@@ -10,6 +10,9 @@ body, html:
 			width:30px
 		span:
 			padding-left: 20px
+			position:relative
+			bottom:2px
+
 	&.reverse:
 		background-color: "rgba(34, 34, 34, 0.22)"
 		border-color    : "rgba(0, 0, 0, 0.12)"
