@@ -190,5 +190,7 @@ body, html:
 		color: inherit
 		&:hover:
 			text-decoration:underline
+	.thanks:
+		font-size:.8em
 
 //EOF
