@@ -1,17 +1,18 @@
-# German translations for PROJECT.
+# French translations for PROJECT.
 # Copyright (C) 2014 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 #
+
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-04-07 18:00+0200\n"
-"PO-Revision-Date: 2014-03-31 15:50+0200\n"
+"PO-Revision-Date: 2014-04-07 18:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -42,7 +43,7 @@ msgstr ""
 
 #: templates/header.html:17 templates/home.html:72
 msgid "Open Source Art"
-msgstr ""
+msgstr "Art opensource"
 
 #: templates/header.html:18 templates/home.html:96
 msgid "Market Forces"
@@ -379,5 +380,5 @@ msgstr ""
 #~ "\t\t\n"
 #~ "\t\t\t<p>http://benedikt-gross.de</p>\n"
 #~ "\t\t\t"
-#~ msgstr "POUET POUET"
+#~ msgstr ""
 
