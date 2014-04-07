@@ -74,6 +74,9 @@ class Navigation
 				media.prepend(body)
 				body.css
 					"background-image" : "url(#{media.data("src")})"
+			if media.data("position")?
+				body.css
+					"background-position": media.data("position")
 			media.css
 				"opacity" : 1
 
