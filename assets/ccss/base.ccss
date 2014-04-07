@@ -30,3 +30,6 @@ a:
 
 .x300:
 	width:300px
+
+.navbar-default .navbar-toggle:
+	border-color: transparent
