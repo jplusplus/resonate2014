@@ -145,7 +145,7 @@ body, html:
 		background-image   : url('')
 	.title:
 		position : absolute
-		bottom   : 20px
+		bottom   : 60px
 		font-size: 4em
 		color    : white
 		text-align: center
