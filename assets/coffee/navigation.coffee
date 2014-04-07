@@ -71,7 +71,6 @@ class Navigation
 					body.css "width", media.attr("width")
 			if media.data("src")?
 				media.find(".body").remove()
-				console.log "coucou", media.data("src")
 				media.prepend(body)
 				body.css
 					"background-image" : "url(#{media.data("src")})"
