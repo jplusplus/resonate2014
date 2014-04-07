@@ -177,6 +177,6 @@ body, html:
 		text-decoration:underline
 		color: inherit
 		&:hover:
-		text-decoration:underline
+			text-decoration:underline
 
 //EOF
