@@ -8,7 +8,7 @@ class Navigation
 			header_chapters : $(".header .chapters")
 			title           : $(".main_title")
 			logo_intro      : $("img.logo")
-			illustrations   : $(".illustration")
+			media           : $(".illustration, .iframe")
 		@media        = {}
 		@titlesOffset = []
 		activeTarget  = undefined
@@ -33,7 +33,7 @@ class Navigation
 		# media
 		@media        = {}
 		@titlesOffset = []
-		@uis.illustrations.each((e, i) -> that.media[$(this).offset().top] = $(this))
+		@uis.media.each((e, i) -> that.media[$(this).offset().top] = $(this))
 
 	onScroll: =>
 		# toggle header style
@@ -42,9 +42,17 @@ class Navigation
 		window_position = $(document).scrollTop() + $(window).height()
 		for offset, media of @media
 			if window_position - 100 >= offset
-				# show picture
-				image = $("<img />").attr("src", media.data("src"))
-				image.load(@showImage(media, image))
+				if media.hasClass("illustration")
+					# show picture
+					image = $("<img />").attr("src", media.data("src"))
+					image.load(@showImage(media, image))
+				else
+					# show iframe
+					iframe = $("<iframe></iframe>").attr("src", media.data("src"))
+					media.html(iframe)
+					iframe.attr("width", "100%")
+					iframe.attr("height", iframe.width() /parseInt(media.data("ratio")))
+					iframe.load(@showIframe(media, iframe))
 				delete @media[offset]
 
 	showImage: (media, image) =>
@@ -60,6 +68,10 @@ class Navigation
 					"background-image" : "url(#{media.data("src")})"
 			media.css
 				"opacity" : 1
+
+	showIframe: (media, iframe) =>
+		return (e) ->
+			media.css("opacity", 1)
 
 	toggleHeaderStyle: (reverse) => @uis.header.toggleClass("reverse", reverse)
 
