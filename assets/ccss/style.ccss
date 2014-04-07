@@ -111,6 +111,7 @@ body, html:
 	float:left
 	.body:
 		position:relative
+		line-height: 1.25em
 		&:before:
 			content   :'\"\\201C\"'
 			font-size : 2em
