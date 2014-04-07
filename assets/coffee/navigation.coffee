@@ -49,6 +49,8 @@ class Navigation
 
 	showImage: (media, image) =>
 		return (e) ->
+			if media.parents(".article").length
+				media.css "height", image.get(0).naturalHeight/image.get(0).naturalWidth * media.width()
 			if media.height() <= 0
 				if media.attr("width")? and image?
 					media.css "height", image.get(0).naturalHeight/image.get(0).naturalWidth * media.attr("width")
