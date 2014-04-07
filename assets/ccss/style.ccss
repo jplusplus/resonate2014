@@ -47,6 +47,7 @@ body, html:
 		padding-bottom        : 15px
 		margin-bottom         : 30px
 		color                 : white
+		position              : relative
 
 		.lead:
 			font-size   : 4em
@@ -62,7 +63,6 @@ body, html:
 		color                             : white
 		position                          : absolute
 		bottom                            : 25px
-		right                             : 50%
 		-webkit-animation-name            : pulsate
 		-webkit-animation-duration        : 1.5s
 		-webkit-animation-timing-function : ease-in-out
