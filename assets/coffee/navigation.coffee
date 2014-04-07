@@ -21,12 +21,16 @@ class Navigation
 		image.load(@showImage(@uis.title))
 
 		# bind events
-		$(window).on("resize", @relayout)
+		lazy_relayout = _.debounce(@relayout, 300)
+		$(window).resize(lazy_relayout)
 		window.onscroll = @onScroll
 		$('.bookmark a').click(@onAncreClick)
 		$('body').scrollspy({ target: '.bookmark', offset:300 })
 
 	relayout: =>
+		if @_width == $(window).width()
+			return false
+		@_width = $(window).width()
 		that = this
 		# main page
 		main_page_height = $(window).height() - @uis.title.offset().top
@@ -58,14 +62,18 @@ class Navigation
 
 	showImage: (media, image) =>
 		return (e) ->
+			body = $("<div/>").addClass("body")
 			if media.parents(".article").length
-				media.css "height", image.get(0).naturalHeight/image.get(0).naturalWidth * media.width()
+				body.css "height", image.get(0).naturalHeight/image.get(0).naturalWidth * media.width()
 			if media.height() <= 0
 				if media.attr("width")? and image?
-					media.css "height", image.get(0).naturalHeight/image.get(0).naturalWidth * media.attr("width")
-					media.css "width", media.attr("width")
+					body.css "height", image.get(0).naturalHeight/image.get(0).naturalWidth * media.attr("width")
+					body.css "width", media.attr("width")
 			if media.data("src")?
-				media.css
+				media.find(".body").remove()
+				console.log "coucou", media.data("src")
+				media.prepend(body)
+				body.css
 					"background-image" : "url(#{media.data("src")})"
 			media.css
 				"opacity" : 1
