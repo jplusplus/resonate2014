@@ -5,8 +5,8 @@
 
 	<div class="main_title" id="start">
 		<div class="lead">
-			Digital Arts Circus
-			<p class="little">The new-media bohemia gathers in Belgrade</p>
+			{% trans %}Digital Arts Circus{% endtrans %}
+			<p class="little">{% trans %}The new-media bohemia gathers in Belgrade{% endtrans %}</p>
 		</div>
 		<span class="scroll-indicator">
 			<div class="icon icon-arrow-down"></div>
@@ -15,9 +15,9 @@
 	<div class="article container" id="start">
 		<div class="body">
 			{% trans %}
-			<p><span class="lettrine">T</span>hey do not call themselves ‘artists’, but their creations mesmerize and challenge passers-by. They are shun by traditional auction houses and most museums, but might be the future of art. We met the new-media art scene in Belgrade last week, at the Resonate festival.</p>
+			<p>They do not call themselves ‘artists’, but their creations mesmerize and challenge passers-by. They are shun by traditional auction houses and most museums, but might be the future of art. We met the new-media art scene in Belgrade last week, at the Resonate festival.</p>
 
-			<p><span class="lettrine">B</span>elgrade has been announced to us as the new Berlin. Serbia was hit hard by the financial crisis. That’s the first thing locals mention. Berlin’s flamboyant mayor Klaus Wowereit is notoriously close to his city’s cultural class. Dragan Đilas, Belgrade’s mayor until late 2013, is a mass media mogul, who has brought Big Brother to Serbia. Performance artists Marina Abramović and Milica Tomic are from Belgrade. The Museum of Contemporary Arts collection holds works by Salvador Dalí, Andy Warhol, George Maciunas, and Hannah Wilke. When it opened in 1958 it was one of Europe’s first national museums of modern art. Since it closed for renovation works in 2007 it has been slowly transforming itself into a ruin. The government funding has run out.</p>
+			<p>Belgrade has been announced to us as the new Berlin. Serbia was hit hard by the financial crisis. That’s the first thing locals mention. Berlin’s flamboyant mayor Klaus Wowereit is notoriously close to his city’s cultural class. Dragan Đilas, Belgrade’s mayor until late 2013, is a mass media mogul, who has brought Big Brother to Serbia. Performance artists Marina Abramović and Milica Tomic are from Belgrade. The Museum of Contemporary Arts collection holds works by Salvador Dalí, Andy Warhol, George Maciunas, and Hannah Wilke. When it opened in 1958 it was one of Europe’s first national museums of modern art. Since it closed for renovation works in 2007 it has been slowly transforming itself into a ruin. The government funding has run out.</p>
 
 			<p>Belgrade is setting out to fulfill the “poor, but sexy” promise, that Wowereit famously made about Berlin a decade ago. A young generation of artists are bringing the city to the centre stage of the art scene. Its cheap rents are turning it into a safe haven for creative types. In <a href="http://www.mercer.de/press-releases/1420615">cost of living surveys</a> Belgrade regularly ranks far better than Berlin or other cities famous for their bohemian scenes such as Portland or Istanbul.</p>
 
@@ -35,12 +35,12 @@
 	<!--<div class="illustration full" data-src="{{ url_for("static", filename="images/club.JPG") }}">
 	</div>-->
 	<div class="illustration full" data-src="{{ url_for("static", filename="images/bauer.JPG") }}">
-		<div class="title">Code Bohemia</div>
+		<div class="title">{% trans %}Code Bohemia{% endtrans %}</div>
 	</div>
 	<div class="article container" id="bohemia">
 		<div class="body">
 			{% trans %}
-			<p><span class="lettrine">S</span>pace not taken up by laptops is covered with cables, duct tape, and circuit boards. Multicolored running shoes navigate their way through narrow staircases filled with smoothie-fueled chatter. A mix of games, performances, data visualizations, interactive installations, and artificial intelligence projects is presented in front of bulging lecture theatres. The digital arts circus has put up its tents in Belgrade. It’s the first day of Resonate festival.
+			<p>Space not taken up by laptops is covered with cables, duct tape, and circuit boards. Multicolored running shoes navigate their way through narrow staircases filled with smoothie-fueled chatter. A mix of games, performances, data visualizations, interactive installations, and artificial intelligence projects is presented in front of bulging lecture theatres. The digital arts circus has put up its tents in Belgrade. It’s the first day of Resonate festival.
 			</p>
 			<p>
 			Some participants have already arrived a couple of days before the official launch of the festival. They’ve been trading insights in workshops on coding with light, face manipulation, data visualization, or specific frameworks for algorithmic art. They often know each other from previous collaborations or hackathons that rarely last longer than a couple of days. The new-media art community is small. Few coders work with the software tools code artists develop. Programming environments like OpenFrameworks, Processing, Cinder, and vvvv are exotic concepts even for regular programmers. At Resonate festival they are omnipresent. Artists use them to control light, sound, visual elements on screen, and program interactions involving the audience or physical objects. Many manipulate so called Arduinos, mini-controllers that transform inputs from sensors into outputs to lamps, motors, or musical instruments.	
@@ -69,13 +69,13 @@
 	</div>
 
 	<div class="illustration full" data-src="{{ url_for("static", filename="images/teacher.JPG") }}" data-position="top left">
-	<div class="title">Open Source Art</div>
+	<div class="title">{% trans %}Open Source Art{% endtrans %}</div>
 	</div>
 
 	<div class="article container" id="opensource">
 		<div class="body">
 			{% trans %}
-			<p><span class="lettrine">T</span>he default behaviour of many new-media artists is open source. That means that they often share the code of their art works with the public and allow people to build upon it - often before completion itself. They rely on programming languages and environments that are collectively developed. Resonate festival is not an exhibition or an art fair. Its open format, discussions, and space for creation rather resembles a university. </p>
+			<p>The default behaviour of many new-media artists is open source. That means that they often share the code of their art works with the public and allow people to build upon it - often before completion itself. They rely on programming languages and environments that are collectively developed. Resonate festival is not an exhibition or an art fair. Its open format, discussions, and space for creation rather resembles a university. </p>
 
 			<p>Kyle McDonald, Daito Manabe, and Klaus Obermaier sit on stage behind a table that looks as if it was build out of gigantic wooden bricks. The three artists have just finished their collaboration on a code-based performance piece they have called ‘Transcranial’. It mixes dancing, distortion of filmed body parts, and Manabe’s notorious electric impulses on the performer's face. They show fragments that have inspired their work, such as a <a href="http://www.newscientist.com/videoredirect?bcpid=2227271001&bckey=AQ~~,AAAAADqBmN8~,Yo4S_rZKGX0rYg6XsV7i3F9IB8jNBoiY&bctid=899434793001">video</a> of a reporter who gets his speech centre temporarily switched off by a magnet in front of a camera.</p>
 
@@ -93,14 +93,14 @@
 	</div>
 
 	<div class="illustration full" data-src="{{ url_for("static", filename="images/market.JPG") }}">
-	<div class="title">Market Forces</div>
+	<div class="title">{% trans %}Market Forces{% endtrans %}</div>
 	</div>
 
 	<div class="article container" id="market">
 		<div class="body">
 			{% trans %}
 			
-			<p><span class="lettrine">T</span>he global art market is worth around <a href="http://www.bloomberg.com/news/2014-03-12/global-art-market-surged-to-66-billion-in-2013-report.html">€50 billion</a>. New-media art has been missing out. The first computer art exhibitions were staged in the 1960s. The first major art auction dedicated to new-media art was only organized in autumn 2013. It was hosted by Phillips, one of the traditional fine arts auction houses but the 16 works on display have only brought in the modest sum of <a href="http://www.forbes.com/sites/katherynthayer/2013/10/22/going-once-going-twice-phillips-puts-gifs-on-auction/">$90,600</a>. Even paintings by newcomer artists featured in the company’s <a href="link to auction">“more accessible” auctions</a> sell for double. The price for a Banksy can be $500,000.</p>
+			<p>The global art market is worth around <a href="http://www.bloomberg.com/news/2014-03-12/global-art-market-surged-to-66-billion-in-2013-report.html">€50 billion</a>. New-media art has been missing out. The first computer art exhibitions were staged in the 1960s. The first major art auction dedicated to new-media art was only organized in autumn 2013. It was hosted by Phillips, one of the traditional fine arts auction houses but the 16 works on display have only brought in the modest sum of <a href="http://www.forbes.com/sites/katherynthayer/2013/10/22/going-once-going-twice-phillips-puts-gifs-on-auction/">$90,600</a>. Even paintings by newcomer artists featured in the company’s <a href="link to auction">“more accessible” auctions</a> sell for double. The price for a Banksy can be $500,000.</p>
 
 			<p>The new-media bohemia publishes its work and shares code online. It does not seem to care about the rules of the art market whose thousands of collectors crave scarcity and exclusivity. But they also have to pay their rent. When a collector offers to buy new-media art shared on the internet, artists have agreed to transfer the ownership of the pieces domain or to take it <a href="http://ca.blouinartinfo.com/visual-arts/article/38508-can-digital-art-make-money">offline</a>.Wutang Clan have taken a more radical approach by producing only <a href="http://www.forbes.com/sites/zackomalleygreenburg/2014/03/26/why-wu-tang-will-release-just-one-copy-of-its-secret-album/">one copy</a> of their latest album.</p>
 
