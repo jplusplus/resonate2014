@@ -164,7 +164,6 @@ msgid "I. Code Bohemia"
 msgstr "I. Code Bohemia"
 
 #: templates/home.html:42
-#, fuzzy
 msgid ""
 "\n"
 "\t\t\t<p>Space not taken up by laptops is covered with cables, duct tape,"
@@ -320,7 +319,6 @@ msgid "II. Open Source Art"
 msgstr "II. Art open source"
 
 #: templates/home.html:77
-#, fuzzy
 msgid ""
 "\n"
 "\t\t\t<p>The default behaviour of many new-media artists is open source. "
@@ -411,7 +409,6 @@ msgid "III. Market Forces"
 msgstr "III. Market Forces"
 
 #: templates/home.html:101
-#, fuzzy
 msgid ""
 "\n"
 "\t\t\t\n"
@@ -584,6 +581,17 @@ msgid ""
 " <a href=\"http://www.accurat.it/\">accurat.it</a>.</li>\n"
 "\t\t"
 msgstr ""
+"\n"
+"\t\tVoici nos projets favoris du festival.\n"
+"\t\t<br/><br/>\n"
+"\t\t<ul>\n"
+"\t\t\t<li><a href=\"https://twitter.com/abstractmachine\">Douglas E.Stanley</a> pour son concept de \"<i>jouer jusqu'à casser les machines</i>\".</li>\n"
+"\t\t\t<li><a href=\"https://twitter.com/daitomanabe\">Daito Manabe</a>, pour réussir contrôler électroniquement des visages</li>\n"
+"\t\t\t<li><a href=\"https://twitter.com/rachelbinx\">Rachel Binx et Sha Hwang</a> pour <a href=\"http://meshu.io/\">meshu.io</a> qui permet de construire des bijoux à partir de villes.</li>\n"
+"\t\t\t<li><a href=\"https://twitter.com/dentakuldn\">Dentaku</a> pour la création de <a href=\"http://dentakulondon.com/ototo/\">Ototo</a>un kit musical tout-en-un qui permet de construire ses propres instruments.</li>\n"
+"\t\t\t<li><a href=\"https://twitter.com/prgarc\">Pablo Garcia</a>pour le génial <a href=\"http://www.pablogarcia.org/projects/webcam-venus/\">Webcam Venus</a>, le projet ambitieux d'archives <a href=\"https://twitter.com/drawingmachines\">drawingmachines.org</a> et l'outil pour dessiner <a href=\"http://neolucida.com/\">NeoLucida</a>.</li>\n"
+"\t\t\t<li><a href=\"https://twitter.com/giorgialupi\">Giorgia Lupi</a> pour ses data visualisations et l'excellent travail de son studio <a href=\"http://www.accurat.it/\">accurat.it</a>.</li>\n"
+"\t\t"
 
 #~ msgid ""
 #~ msgstr ""
