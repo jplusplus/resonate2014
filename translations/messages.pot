@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-04-08 17:33+0200\n"
+"POT-Creation-Date: 2014-04-08 18:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,10 +103,12 @@ msgid ""
 "has been working on free software projects for over a decade. “People "
 "aspire to be as inventive with electronics as Tesla”, he says as he takes"
 " a sip of his energy drink and lights another Davidoff cigarette.</p>\n"
+"\t\t\t"
+msgstr ""
+
+#: templates/home.html:27
+msgid ""
 "\n"
-"\t\t\t<div class=\"iframe\" data-"
-"src=\"http://vied12.cartodb.com/viz/e94c5cd0-bcf0-11e3-b563-0e230854a1cb/embed_map?title=false&description=false&search=false&shareable=false&cartodb_logo=false&layer_selector=false&legends=false&scrollwheel=false&fullscreen=false&sublayer_options=1&sql=&zoom=2&center_lat=48.47960905583197&center_lon=0.86328125\""
-" data-ratio=\"2\"></div>\n"
 "\n"
 "\t\t\t<div class=\"legend\" style=\"position:relative;top:-27px\">500 "
 "participants from 184 cities.</div>\n"
@@ -120,11 +122,11 @@ msgid ""
 "\t\t\t"
 msgstr ""
 
-#: templates/home.html:38
+#: templates/home.html:39
 msgid "I. Code Bohemia"
 msgstr ""
 
-#: templates/home.html:42
+#: templates/home.html:43
 msgid ""
 "\n"
 "\t\t\t<p>Space not taken up by laptops is covered with cables, duct tape,"
@@ -192,11 +194,11 @@ msgid ""
 "\t\t\t"
 msgstr ""
 
-#: templates/home.html:72
+#: templates/home.html:73
 msgid "II. Open Source Art"
 msgstr ""
 
-#: templates/home.html:77
+#: templates/home.html:78
 msgid ""
 "\n"
 "\t\t\t<p>The default behaviour of many new-media artists is open source. "
@@ -243,11 +245,11 @@ msgid ""
 "\t\t\t"
 msgstr ""
 
-#: templates/home.html:96
+#: templates/home.html:97
 msgid "III. Market Forces"
 msgstr ""
 
-#: templates/home.html:101
+#: templates/home.html:102
 msgid ""
 "\n"
 "\t\t\t\n"
@@ -348,15 +350,15 @@ msgid ""
 "\t\t\t"
 msgstr ""
 
-#: templates/home.html:138
+#: templates/home.html:139
 msgid "Follow!"
 msgstr ""
 
-#: templates/home.html:143
+#: templates/home.html:144
 msgid ""
 "\n"
-"\t\tWe have seen many things. Here is a short list of our favourite "
-"projects.\n"
+"\t\tWe have seen many inspiring things at Resonate. Here is a short list "
+"of our favourite projects.\n"
 "\t\t<br/><br/><br/>\n"
 "\t\t<ul>\n"
 "\t\t\t<li><a href=\"https://twitter.com/abstractmachine\">Douglas Edric "
