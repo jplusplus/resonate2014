@@ -8,6 +8,7 @@ class Navigation
 			header          : $(".header")
 			header_chapters : $(".header .chapters")
 			title           : $(".main_title")
+			title_body      : $(".main_title .lead")
 			logo_intro      : $("img.logo")
 			media           : $(".illustration, .iframe")
 			iframes         : $(".iframe")
@@ -32,6 +33,8 @@ class Navigation
 	relayout: =>
 		main_page_height = $(window).height() - @uis.title.offset().top
 		@uis.title.css 'height', main_page_height
+		@uis.title_body.css
+			top : main_page_height - @uis.title_body.height() - 50
 		# main page
 		if @_width == $(window).width()
 			return false

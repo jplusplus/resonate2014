@@ -46,8 +46,6 @@ body, html:
 		background-position   : top
 		background-attachment : fixed
 		background-repeat     : "no-repeat"
-		padding-top           : 75px
-		padding-bottom        : 15px
 		margin-bottom         : 30px
 		color                 : white
 		position              : relative
@@ -65,18 +63,14 @@ body, html:
 				font-size:.3em
 
 	.scroll-indicator:
-		color                             : white
 		position                          : absolute
 		bottom                            : 25px
 		-webkit-animation-name            : pulsate
 		-webkit-animation-duration        : 1.5s
 		-webkit-animation-timing-function : ease-in-out
 		-webkit-animation-iteration-count : infinite
-		font-size                         : 30px
-		margin-left                       : -25px
+		margin-left                       : -20px
 		opacity                           : 0.5
-		width                             : 50px
-		text-align                        : center
 
 	.article:
 		font-size : 1.25em
