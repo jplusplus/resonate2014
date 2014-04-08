@@ -28,13 +28,13 @@ class Navigation
 		$('.bookmark a').click(@onAncreClick)
 
 	relayout: =>
+		# main page
+		main_page_height = $(window).height() - @uis.title.offset().top
+		@uis.title.css 'height', main_page_height
 		if @_width == $(window).width()
 			return false
 		@_width = $(window).width()
 		that = this
-		# main page
-		main_page_height = $(window).height() - @uis.title.offset().top
-		@uis.title.css 'height', main_page_height
 		# set media height to allow scroll
 		@uis.iframes.each ->
 			$(this).css("height", $(this).width() /parseFloat($(this).data("ratio")))
