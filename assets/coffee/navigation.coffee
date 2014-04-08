@@ -69,24 +69,28 @@ class Navigation
 				delete @media[offset]
 
 	showImage: (media, image) =>
+		media.addClass("loading")
+		media.prepend($("<div class=\"loader\"/>"))
+		body = $("<div/>").addClass("body")
+		if media.data("src")?
+			media.find(".body").remove()
+			media.prepend(body)
+		if media.data("position")?
+			body.css
+				"background-position": media.data("position")
 		return (e) ->
-			body = $("<div/>").addClass("body")
 			if media.data("src")?
-				media.find(".body").remove()
-				media.prepend(body)
 				body.css
 					"background-image" : "url(#{media.data("src")})"
-			if media.data("position")?
-				body.css
-					"background-position": media.data("position")
-			media.css
-				"opacity" : 1
+			media.removeClass("loading")
 			$('body').each ->
 				$spy = $(this).scrollspy('refresh')
 
 	showIframe: (media, iframe) =>
+		media.prepend($("<div class=\"loader\"/>"))
+		media.addClass("loading")
 		return (e) ->
-			media.css("opacity", 1)
+			media.removeClass("loading")
 			$('body').each ->
 				$spy = $(this).scrollspy('refresh')
 
