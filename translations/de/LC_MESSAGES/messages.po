@@ -581,7 +581,7 @@ msgid ""
 "for her vision on data visualization and the excellent work of her studio"
 " <a href=\"http://www.accurat.it/\">accurat.it</a>.</li>\n"
 "\t\t"
-msgstr ""
+msgstr "Wir haben beim Resonate viel Inspirierendes gesehen. Hier ist eine Liste unserer Lieblingsprojekte.<br/><br/><ul><li><a href=\"https://twitter.com/abstractmachine\">Douglas E. Stanley</a> und sein Konzept des „playing and breaking the machine“.</li><li><a href=\"https://twitter.com/daitomanabe\">Daito Manabe</a>, der Gesichter elektronisch kontrolliert.</li><li><a href=\"https://twitter.com/rachelbinx\">Rachel Binx und Sha Hwang </a> und ihr Laden <a href=\"http://meshu.io/\">Meshu</a> indem man sich maßgefertigten Schmuck basierend auf den eigenen Reisedaten bestellen kann.</li><li><a href=\"https://twitter.com/dentakuldn\">Dentaku</a> und das<a href=\"http://dentakulondon.com/ototo/\">Ototo Kit</a>, mit dem man seine eigenen Instrumente bauen kann.</li><li><a href=\"https://twitter.com/prgarc\">Pablo Garcia</a>, sein geniales Projekt <a href=\"http://www.pablogarcia.org/projects/webcam-venus/\">Webcam Venus</a>, das ambitionierte Archivierungs-Projekt <a href=\"https://twitter.com/drawingmachines\">drawingmachines.org</a> und sein Malwerkzeug <a href=\"http://neolucida.com/\">NeoLucida</a>, ein gemeinsames Projekt mit Golan Levin.</li><li><a href=\"https://twitter.com/giorgialupi\">Giorgia Lupi</a>, ihre Datenvisualisierungen und die exzellente Arbeit ihres Studios <a href=\"http://www.accurat.it/\">accurat.it</a>.</li>"
 
 #~ msgid ""
 #~ msgstr ""
