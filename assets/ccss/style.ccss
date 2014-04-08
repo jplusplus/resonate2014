@@ -144,7 +144,7 @@ body, html:
 		background-position : center
 	.title:
 		position : absolute
-		bottom   : 60px
+		bottom   : 30px
 		font-size: 4em
 		color    : white
 		text-align: center
