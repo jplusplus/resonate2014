@@ -3,4 +3,7 @@
 	.quote .body {
 		font-size: .7em;
 	}
+	.footer .row > div {
+		display: inline;
+	}
 }
