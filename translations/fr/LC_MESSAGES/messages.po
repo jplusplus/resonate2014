@@ -51,7 +51,7 @@ msgstr "De l'art open source"
 
 #: templates/header.html:18
 msgid "Market Forces"
-msgstr "Market Forces"
+msgstr "Face au marché"
 
 #: templates/home.html:9
 msgid "The new-media bohemia gathers in Belgrade"
