@@ -52,7 +52,7 @@ class Navigation
 		#show media
 		window_position = $(document).scrollTop() + $(window).height()
 		for offset, media of @media
-			if window_position + 200 >= offset
+			if window_position + 300 >= offset
 				if media.hasClass("illustration")
 					# show picture
 					image = $("<img />").attr("src", media.data("src"))
