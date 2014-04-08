@@ -145,7 +145,7 @@ body, html:
 	.title:
 		position : absolute
 		bottom   : 30px
-		font-size: 4em
+		font-size: 3.5em
 		color    : white
 		text-align: center
 		left:0
