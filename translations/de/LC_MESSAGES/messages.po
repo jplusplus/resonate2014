@@ -178,7 +178,7 @@ msgid ""
 "\t\t\t<li><a href=\"https://twitter.com/prgarc\">Pablo Garcia</a> for the genious <a href=\"http://www.pablogarcia.org/projects/webcam-venus/\">Webcam Venus</a>, the ambitious archiving project <a href=\"https://twitter.com/drawingmachines\">drawingmachines.org</a> and the drawing tool <a href=\"http://neolucida.com/\">NeoLucida</a>.</li>\n"
 "\t\t\t<li><a href=\"https://twitter.com/giorgialupi\">Giorgia Lupi</a> for her vision on data visualization and the excellent work of her studio <a href=\"http://www.accurat.it/\">accurat.it</a>.</li>\n"
 "\t\t"
-msgstr ""
+msgstr "<p>Wir haben beim Resonate viel Inspirierendes gesehen. Hier ist eine Liste unserer Lieblingsprojekte.<br/><br/><ul><li><a href=\"https://twitter.com/abstractmachine\">Douglas E. Stanley</a>für sein Konzept des „playing and breaking the machine“.</li>"
 
 #~ msgid ""
 #~ msgstr ""
