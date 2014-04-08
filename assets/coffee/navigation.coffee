@@ -15,6 +15,12 @@ class Navigation
 		@titlesOffset = []
 		activeTarget  = undefined
 
+
+		# init
+		main_page_height = $(window).height() - @uis.title.offset().top
+		console.log main_page_height
+		@uis.title.css 'height', main_page_height
+
 		@relayout()
 
 		# show title image when loaded
@@ -29,8 +35,6 @@ class Navigation
 
 	relayout: =>
 		# main page
-		main_page_height = $(window).height() - @uis.title.offset().top
-		@uis.title.css 'height', main_page_height
 		if @_width == $(window).width()
 			return false
 		@_width = $(window).width()
@@ -59,10 +63,12 @@ class Navigation
 					image.load(@showImage(media, image))
 				else
 					# show iframe
-					iframe = $("<iframe></iframe>").attr("src", media.data("src")).attr("frameborder", 0)
+					iframe = $("<iframe></iframe>")
+						.attr("src"        , media.data("src"))
+						.attr("frameborder", 0)
+						.attr("width"      , "100%")
+						.attr("height"     , "100%")
 					media.html(iframe)
-					iframe.attr("width", "100%")
-					iframe.attr("height", iframe.width() /parseInt(media.data("ratio")))
 					iframe.load(@showIframe(media, iframe))
 				delete @media[offset]
 
