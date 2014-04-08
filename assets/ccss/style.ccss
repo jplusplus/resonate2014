@@ -199,7 +199,8 @@ body, html:
 // -------------------------------
 // FOOTER
 .footer:
-	background: #303030;
+	//background: #303030;
+	background-image:"url(../images/grey.png)"
 	color: #999999;
 	margin-top: 40px;
 	padding: 20px 20px 40px;
