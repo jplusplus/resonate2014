@@ -121,15 +121,15 @@ msgstr ""
 " Barcelona</div>\n"
 " \t\t\t</div>\n"
 "<p>A peine remise de la guerre du Kosovo, la Serbie a été fortement touchée par la crise financière, ce sont les deux premières choses que les locaux racontent à propos de leur ville.
-Pourtant, à l'image de Berlin, une scène artistique forte et dissidente a su s'y développer. Plus de trente fois détruite, ses ruines abritent clubs et culture alternative. 
-Ses loyers peu élevés (compter moins de 500 euros pour un 3 pièces en plein centre) en font un paradis pour tous les créatifs et concepts stores, galeries, coworking spaces, agences de design fleurissent un peu partout dans la vieille ville et autour du Danube.
-Une jeune génération d'artistes, penseurs et hackers sont au premier plan de ce développement, tels que Milos Rancic, le fondateur du Hacklab Belgrade. Il est également un des créateurs de la branche serbe de Wikipédia et c'est aussi grâce à lui que Belgrade a été la première ville européenne a héberger l'entière base de données de backup de Wikipédia.</p>"
+"Pourtant, à l'image de Berlin, une scène artistique forte et dissidente a su s'y développer. Plus de trente fois détruite, ses ruines abritent clubs et culture alternative. 
+"Ses loyers peu élevés (compter moins de 500 euros pour un 3 pièces en plein centre) en font un paradis pour tous les créatifs et concepts stores, galeries, coworking spaces, agences de design fleurissent un peu partout dans la vieille ville et autour du Danube.
+"Une jeune génération d'artistes, penseurs et hackers sont au premier plan de ce développement, tels que Milos Rancic, le fondateur du Hacklab Belgrade. Il est également un des créateurs de la branche serbe de Wikipédia et c'est aussi grâce à lui que Belgrade a été la première ville européenne a héberger l'entière base de données de backup de Wikipédia.</p>"
 "\n"
 "\t\t\t<p>Belgrade est définitivement une ville "pauvre, mais sexy", comme le maire de Berlin, Klaus Wowereit, l'avait annoncé pour sa ville il y a une dizaine d'années.</p>\n"
 "\n"
 "\t\t\t<p>C'est au centre de cette ville en pleine ébullition créative que se tenait du 3 au 5 Avril le festival Resonate, organisé par l'artiste serbe Maria Jelesijević et l'architecte londonien Filip Visnjic.
-Cette troisième édition du festival a réuni des artistes numériques de 184 villes dans le monde. Dès janvier, impossible de trouver une entrée. Les tickets se sont tous vendus en quelques semaines.
-</p>\n"
+"Cette troisième édition du festival a réuni des artistes numériques de 184 villes dans le monde. Dès janvier, impossible de trouver une entrée. Les tickets se sont tous vendus en quelques semaines.
+"</p>\n"
 "\n"
 "\t\t\t<div class=\"iframe\" data-"
 "src=\"http://vied12.cartodb.com/viz/e94c5cd0-bcf0-11e3-b563-0e230854a1cb/embed_map?title=false&description=false&search=false&shareable=false&cartodb_logo=false&layer_selector=false&legends=false&scrollwheel=false&fullscreen=false&sublayer_options=1&sql=&zoom=2&center_lat=48.47960905583197&center_lon=0.86328125\""
@@ -213,13 +213,13 @@ msgid ""
 msgstr ""
 "\n"
 "\t\t\t<p>A l'interieur, l'espace n'est pas seulement occupé par des ordinateurs portables, mais aussi par des câbles, des circuits imprimés et de nombreux rouleaux de gros scotch. 
-Dans les salles d'amphithéâtre se succèdent les présentations mélangeant jeux, performances, visualisations de données, installations interactives et intelligence artificielle.
-Aucun des lieux de la conférence ne dispose d'un accès Wi-Fi suffisant pour les 500 participants, et l'ambiance s'en ressent : les conversations dans les escaliers étroits sont animées et les salles de présentation sont pleines à craquer d'un public ne lâchant pas des yeux les intervenants et les images qui se succèdent sur le grand écran.
-Il semble importer peu à Maria, l'organisatrice du festival, que l'événement ne soit pas live-tweeté ou dans les \“trending topics\” de la semaine.
-Le ton est donné, à Resonate, on n'est pas dans le paraître mais dans l'action.
-</p>\n"
+"Dans les salles d'amphithéâtre se succèdent les présentations mélangeant jeux, performances, visualisations de données, installations interactives et intelligence artificielle.
+"Aucun des lieux de la conférence ne dispose d'un accès Wi-Fi suffisant pour les 500 participants, et l'ambiance s'en ressent : les conversations dans les escaliers étroits sont animées et les salles de présentation sont pleines à craquer d'un public ne lâchant pas des yeux les intervenants et les images qui se succèdent sur le grand écran.
+"Il semble importer peu à Maria, l'organisatrice du festival, que l'événement ne soit pas live-tweeté ou dans les \“trending topics\” de la semaine.
+"Le ton est donné, à Resonate, on n'est pas dans le paraître mais dans l'action.
+"</p>\n"
 "\t\t\t<p>C'est le premier jour du festival et les artistes numériques sont venus se rencontrer pour partager leurs idées, imaginer des prototypes et apprendre les uns des autres lors des workshops.
-</p>\n"
+"</p>\n"
 "\t\t\t\n"
 "\t\t\t<div class=\"quote\">\n"
 " \t\t\t\t<div class=\"body\">On passe 3 semaines à monter des installations, puis les gens viennent et les cassent.</div>\n"
@@ -227,8 +227,8 @@ Le ton est donné, à Resonate, on n'est pas dans le paraître mais dans l'actio
 " \t\t\t</div>\n"
 "\n"
 "\t\t\t<p>Une des oeuvres référente de ce festival est une vidéo de l’artiste japonais Daito Manabe dans laquelle il fait danser son visage sur de la musique.
-Dans ses prototypes, il se sert de prothèses myoélectriques, utilisées habituellement lors d’examens médicaux pour tester la réactivité des muscles, posées sur son visage. Il a créé un programme qui envoie un stimuli électrique à chaque note de musique, faisant ainsi bouger les muscles de son visage en rythme.
-Le projet ultime de Manabe est de créer un objet qui transmettrait automatiquement les expressions d’un visage à un autre.</p>\n"
+"Dans ses prototypes, il se sert de prothèses myoélectriques, utilisées habituellement lors d’examens médicaux pour tester la réactivité des muscles, posées sur son visage. Il a créé un programme qui envoie un stimuli électrique à chaque note de musique, faisant ainsi bouger les muscles de son visage en rythme.
+"Le projet ultime de Manabe est de créer un objet qui transmettrait automatiquement les expressions d’un visage à un autre.</p>\n"
 "\n"
 "\t\t\t<!-- embed Daito Manabe video \"electric stimulus on face\" here: "
 "http://vimeo.com/7860021 or https://www.youtube.com/watch?v=pLAma-lrJRM\n"
@@ -243,12 +243,12 @@ Le projet ultime de Manabe est de créer un objet qui transmettrait automatiquem
 "Visualizer\"</div>\n"
 "\n"
 "\t\t\t<p>Les avancées technologiques et le renouvellement constant des appareils électroniques font évoluer la façon dont les artistes numériques travaillent. Leurs oeuvres reflètent souvent les changements sociaux que ces nouveautés provoquent.
-Mais la course à la technologie n’est pas ici le but ultime, les Google Glasses sont par exemple ostensiblement absentes du festival Resonate. Les intervenants détestant la manière dont elles portent atteinte à la vie privée.
-La majorité des artistes numériques sont fascinés par les données. Pour eux, elle deviennent de la matière brute. Comme la peinture pour un artiste traditionnel.
-Certains vont même jusqu’à enregistrer méticuleusement tous les pas qu’ils font grâce à des applications sur leur téléphone. Le graphiste Nicholas Felton crée des visualisations de sa routine quotidienne et publie chaque année un rapport personnel retraçant sa vie sous forme de graphiques.</p>\n"
+"Mais la course à la technologie n’est pas ici le but ultime, les Google Glasses sont par exemple ostensiblement absentes du festival Resonate. Les intervenants détestant la manière dont elles portent atteinte à la vie privée.
+"La majorité des artistes numériques sont fascinés par les données. Pour eux, elle deviennent de la matière brute. Comme la peinture pour un artiste traditionnel.
+"Certains vont même jusqu’à enregistrer méticuleusement tous les pas qu’ils font grâce à des applications sur leur téléphone. Le graphiste Nicholas Felton crée des visualisations de sa routine quotidienne et publie chaque année un rapport personnel retraçant sa vie sous forme de graphiques.</p>\n"
 "\n"
 "\t\t\t"<p>Si Resonate était un festival de musique, Aaron Koblin en serait la tête d’affiche. Les organisateurs lui ont réservé le dernier créneau. Sa présentation à la conférence TED a été visionnée plus d’un million de fois et son travail a été montré au MoMa de New-York ainsi qu’au centre Pompidou. Koblin travaille chez Google, où il dirige l’équipe des arts numériques. Dans son temps libre, il crée des oeuvres et des visualisations de données en détournant des outils créés par les géants de la technologie, comme le Mechanical Turk d’Amazon. Cette plateforme permet d’externaliser des tâches simples que les humains effectuent plus facilement que des ordinateurs (décrire une photo, par exemple).
-Aaron Koblin a monté un projet nommé The Sheep Market  (le marché aux moutons). Il a collecté des centaines de dessins de moutons réalisés par des «travailleurs» anonymes rémunérés 0,02 dollar pour ”dessiner un mouton de profil gauche”.</p>\n"
+"Aaron Koblin a monté un projet nommé The Sheep Market  (le marché aux moutons). Il a collecté des centaines de dessins de moutons réalisés par des «travailleurs» anonymes rémunérés 0,02 dollar pour ”dessiner un mouton de profil gauche”.</p>\n"
 "\t\t\t<p>Il voulait ainsi montrer le pouvoir de la communauté en prenant un symbole: Le mouton a été le premier animal cloné. Sur les milliers de participants, un seul ne s’est pas laisser mener par le berger numérique et lui a demandé, en écrivant avec sa souris : “Pourquoi ? Pourquoi fais-tu ça ?”</p>\n"
 
 #: templates/home.html:72
@@ -303,10 +303,10 @@ msgid ""
 msgstr ""
 "\n"
 "\t\t\t<p>La majorité des artistes travaillent en open source (ils rendent public le code informatique de leurs oeuvres), associant ainsi la communauté au processus de création. Tout le monde peut s'approprier l'oeuvre, y contribuer, la détourner, parfois avant même qu’elle ne soit terminée.
-Resonate n’est pas une exposition ou un marché d’art. Son format ouvert, ses discussions et ses espaces dédiés à la création rappellent plus une université.</p>\n"
+"Resonate n’est pas une exposition ou un marché d’art. Son format ouvert, ses discussions et ses espaces dédiés à la création rappellent plus une université.</p>\n"
 "\n"
 "\t\t\t<p>Kyle McDonald, Daito Manabe et Klaus Obermaier assis sur scène, derrière une table qui semble faite de briques de bois gigantesques, parlent de leur dernière collaboration : une performance basée sur du code qu’ils ont appelée "la transcranienne". Cette expérience mêle sons et danse afin que le corps ne fasse plus qu’un avec la musique, toujours à l’aide d’impulsions électriques.
-Ils montrent des fragments qui ont inspiré leur travail, comme cette <a "
+"Ils montrent des fragments qui ont inspiré leur travail, comme cette <a "
 "href=\"http://www.newscientist.com/videoredirect?bcpid=2227271001&bckey=AQ~~,AAAAADqBmN8~,Yo4S_rZKGX0rYg6XsV7i3F9IB8jNBoiY&bctid=899434793001\">vidéo</a>"
 "d'un journaliste qui, face à une caméra, désactive temporairement son centre de la parole à l’aide d’un aimant </p>\n"
 "\n"
@@ -429,16 +429,16 @@ msgstr ""
 "\n"
 "\t\t\t\n"
 "\t\t\t<p>Le marché global de l’art est d’environ <a href=\"http://www.bloomberg.com/news/2014-03-12/global-art-market-surged-to-66-billion-in-2013-report.html\">50 milliards d’euros</a>, sans compter les arts numériques.La première exposition d’art numérique s’est tenue dans les années 60, mais la première vente aux enchères n’a eu lieu qu’à l’automne dernier.
-Elle a été organisée par Phillips, une des maison traditionnelle de vente aux enchères, mais les seizes oeuvres exposées ont rapporté \“seulement\” <a href=\"http://www.forbes.com/sites/katherynthayer/2013/10/22/going-once-going-twice-phillips-puts-gifs-on-auction/\">90 600 dollars</a>. Pour comparaison, les peintures de jeunes artistes vendues aux enchères comme les <a href=\"link to auction\">“plus accessibles"</a>se vendent facilement le double.
-Banksys vend régulièrement ses oeuvres pour 500 000 dollars.</p>\n"
+"Elle a été organisée par Phillips, une des maison traditionnelle de vente aux enchères, mais les seizes oeuvres exposées ont rapporté \“seulement\” <a href=\"http://www.forbes.com/sites/katherynthayer/2013/10/22/going-once-going-twice-phillips-puts-gifs-on-auction/\">90 600 dollars</a>. Pour comparaison, les peintures de jeunes artistes vendues aux enchères comme les <a href=\"link to auction\">“plus accessibles"</a>se vendent facilement le double.
+"Banksys vend régulièrement ses oeuvres pour 500 000 dollars.</p>\n"
 "\n"
 "\t\t\t<p>Comment les artistes numériques, qui, en partageant publiquement leur code et leurs oeuvres et en ne se souciant pas le moins du monde des règles du marché de l’art basées sur la rareté et l’exclusivité, font-ils pour payer leur loyer ? Souvent, ces artistes sont également des entrepreneurs. Qui n’hésitent pas à monétiser leurs idées.</p>\n"
 "\n"
 "\t\t\t<p>Les artistes numériques Rachel Binx et Sha Hwang ont longtemps mis leur talent en visualisation de données au service de clients comme MTV ou Oprah Winfrey.
-Ils ont monté leur projet appelé Meshu, une fabrique de bijoux en ligne. Le client sélectionne les villes qui lui sont chères ; le logiciel crée ensuite une forme qui les relie entre elles. Pour un pendentif en triangle reliant Paris, Belgrade et Berlin, compter 60 euros.</p>\n"
+"Ils ont monté leur projet appelé Meshu, une fabrique de bijoux en ligne. Le client sélectionne les villes qui lui sont chères ; le logiciel crée ensuite une forme qui les relie entre elles. Pour un pendentif en triangle reliant Paris, Belgrade et Berlin, compter 60 euros.</p>\n"
 "\n"
 "\t\t\t<p>Leur autre projet commercial Gifpop permet de rendre réél un gif animé et de recevoir chez soi un objet “physique” d’un gif initialement numérique (15 euros pour une oeuvre format carte postale). Ils sont maintenant devenus des “gifs-galeristes” et vendent les gifs crées par des artistes de leur choix dans leur shop. Ils reversent 80% des bénéfices aux artistes.
-Rachel Binx affirme qu’elle “adore faire des chèques aux artistes”.</p>\n"
+"Rachel Binx affirme qu’elle “adore faire des chèques aux artistes”.</p>\n"
 "\n"
 "\t\t\t"
 
