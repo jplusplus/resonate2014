@@ -15,12 +15,6 @@ class Navigation
 		@titlesOffset = []
 		activeTarget  = undefined
 
-
-		# init
-		main_page_height = $(window).height() - @uis.title.offset().top
-		console.log main_page_height
-		@uis.title.css 'height', main_page_height
-
 		@relayout()
 
 		# show title image when loaded
@@ -28,12 +22,14 @@ class Navigation
 		image.load(@showImage(@uis.title))
 
 		# bind events
-		lazy_relayout = _.debounce(@relayout, 300)
+		lazy_relayout = _.debounce(@relayout, 10)
 		$(window).resize(lazy_relayout)
 		window.onscroll = @onScroll
 		$('.bookmark a').click(@onAncreClick)
 
 	relayout: =>
+		main_page_height = $(window).height() - @uis.title.offset().top
+		@uis.title.css 'height', main_page_height
 		# main page
 		if @_width == $(window).width()
 			return false
