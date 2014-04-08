@@ -1,0 +1,6 @@
+/* mobile */
+@media (max-width: 480px) {
+	.quote .body {
+		font-size: .7em;
+	}
+}
