@@ -33,8 +33,9 @@ class Navigation
 	relayout: =>
 		main_page_height = $(window).height() - @uis.title.offset().top
 		@uis.title.css 'height', main_page_height
+		title_body_offset = main_page_height - @uis.title_body.height() - 50
 		@uis.title_body.css
-			top : main_page_height - @uis.title_body.height() - 50
+			top : if main_page_height / 2 > title_body_offset then title_body_offset else ""
 		# main page
 		if @_width == $(window).width()
 			return false
