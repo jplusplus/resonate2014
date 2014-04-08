@@ -87,7 +87,9 @@ class Navigation
 			if media.data("src")?
 				body.css
 					"background-image" : "url(#{media.data("src")})"
-			media.removeClass("loading")
+			setTimeout(->
+				media.removeClass("loading")
+			, 100)
 			$('body').each ->
 				$spy = $(this).scrollspy('refresh')
 
