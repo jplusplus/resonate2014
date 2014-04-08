@@ -192,6 +192,6 @@ body, html:
 		&:hover:
 			text-decoration:underline
 	.thanks:
-		font-size:.8em
+		font-size:.7em
 
 //EOF
