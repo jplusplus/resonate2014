@@ -7,13 +7,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2014-04-08 11:47+0200\n"
-"PO-Revision-Date: 2014-04-08 14:23+0100\n"
-=======
-"POT-Creation-Date: 2014-04-08 14:21+0200\n"
-"PO-Revision-Date: 2014-04-08 14:11+0100\n"
->>>>>>> FETCH_HEAD
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: de <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -30,17 +23,11 @@ msgid ""
 "href=\"http://berlin.jplusplus.org/\">Journalism++ SAS</a> ⁞ Photos © <a "
 "href=\"http://resonate.io/2014/\">Resonate</a>.</span></div> \n"
 "\t\t"
-msgstr ""
-"\n"
-"\t\t<div>Anne-Lise Bouyer, Sebastian Kraus und Edouard Richard.</div>\n"
-<<<<<<< HEAD
-"\t\t<div><span class=\"mentions\">CC-BY-SA <a href=\"http://berlin.jplusplus.org/\">Journalism++ SAS</a> ⁞ Fotos © <a href=\"http://resonate.io/2014/\">Resonate</a>.</span></div> \n"
-=======
-"\t\t<div><span class=\"mentions\">CC-BY-SA <a "
-"href=\"http://berlin.jplusplus.org/\">Journalism++ SAS</a> ⁞ Photos © <a "
-"href=\"http://resonate.io/2014/\">Resonate</a>.</span></div> \n"
->>>>>>> FETCH_HEAD
-"\t\t"
+msgstr 
+"<div>Anne-Lise Bouyer, Sebastian Kraus, and Edouard Richard.</div>
+<div><span class=\"mentions\">CC-BY-SA <a "
+"href=\"http://berlin.jplusplus.org/\">Journalism++ SAS</a> ⁞ Fotos © <a "
+"href=\"http://resonate.io/2014/\">Resonate</a>.</span></div>"
 
 #: templates/header.html:10 templates/home.html:8
 msgid "Digital Arts Circus"
