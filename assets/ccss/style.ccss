@@ -207,7 +207,6 @@ body, html:
 	img:
 		height:60px
 	.row:
-		max-width: 630px
 		margin:	auto
 		padding-top: 20px
 	a:

@@ -3,6 +3,9 @@
 	.quote .body {
 		font-size: .7em;
 	}
+	.footer .row {
+		max-width: 630px;
+	}
 	.footer .row > div {
 		display: inline;
 	}
