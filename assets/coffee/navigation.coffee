@@ -22,15 +22,15 @@ class Navigation
 		image.load(@showImage(@uis.title))
 
 		# bind events
-		lazy_relayout = _.debounce(@relayout, 300)
+		lazy_relayout = _.debounce(@relayout, 10)
 		$(window).resize(lazy_relayout)
 		window.onscroll = @onScroll
 		$('.bookmark a').click(@onAncreClick)
 
 	relayout: =>
-		# main page
 		main_page_height = $(window).height() - @uis.title.offset().top
 		@uis.title.css 'height', main_page_height
+		# main page
 		if @_width == $(window).width()
 			return false
 		@_width = $(window).width()
@@ -52,17 +52,19 @@ class Navigation
 		#show media
 		window_position = $(document).scrollTop() + $(window).height()
 		for offset, media of @media
-			if window_position + 200 >= offset
+			if window_position + 300 >= offset
 				if media.hasClass("illustration")
 					# show picture
 					image = $("<img />").attr("src", media.data("src"))
 					image.load(@showImage(media, image))
 				else
 					# show iframe
-					iframe = $("<iframe></iframe>").attr("src", media.data("src")).attr("frameborder", 0)
+					iframe = $("<iframe></iframe>")
+						.attr("src"        , media.data("src"))
+						.attr("frameborder", 0)
+						.attr("width"      , "100%")
+						.attr("height"     , "100%")
 					media.html(iframe)
-					iframe.attr("width", "100%")
-					iframe.attr("height", iframe.width() /parseInt(media.data("ratio")))
 					iframe.load(@showIframe(media, iframe))
 				delete @media[offset]
 
