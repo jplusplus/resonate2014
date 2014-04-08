@@ -446,13 +446,13 @@ msgstr ""
 "Ils ont monté leur projet appelé Meshu, une fabrique de bijoux en ligne. Le client sélectionne les villes qui lui sont chères ; le logiciel crée ensuite une forme qui les relie entre elles. Pour un pendentif en triangle reliant Paris, Belgrade et Berlin, compter 60 euros.</p>\n"
 "\n"
 "\t\t\t<p>Leur autre projet commercial Gifpop permet de rendre réél un gif animé et de recevoir chez soi un objet physique, d’un gif initialement numérique (15 euros pour une oeuvre format carte postale). Ils sont maintenant devenus des \"gifs-galeristes\" et vendent les gifs crées par des artistes de leur choix dans leur shop. Ils reversent 80%% des bénéfices aux artistes."
-"Rachel Binx affirme qu’elle “adore faire des chèques aux artistes”.</p>\n"
+"Rachel Binx affirme qu’elle \"adore faire des chèques aux artistes\".</p>\n"
 "\n"
 "\t\t\t"
 
 #: templates/home.html:138
 msgid "Follow!"
-msgstr "Suivre !"
+msgstr "À Suivre !"
 
 #: templates/home.html:143
 msgid ""
