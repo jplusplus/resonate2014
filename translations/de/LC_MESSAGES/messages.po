@@ -43,7 +43,10 @@ msgid ""
 "inspiring local guides.</div>\n"
 "\t\t<div>Big up to Marco our host and skillful driver.</div>\n"
 "\t\t"
-msgstr ""
+msgstr "
+<div>Wir bedanken uns beim Resonate-Team, im Speziellen bei Maria Jelesijevic, und bei allen Teilnehmern, die dafür gesorgt haben, dass uns das Festival so beeindruckt hat. Wir bedanken uns auch bei den Festival-Fotographen, die uns ihre Bilder zur Verfügung gestellt haben.
+Ein spezieller Dank gilt Milica, Nevena und Ana, unseren wunderbaren Guides. Big up an Marco unseren Gastgeber und waghalsigen Fahrer.</div>
+"
 
 #: templates/header.html:10 templates/home.html:8
 msgid "Digital Arts Circus"
@@ -584,7 +587,7 @@ msgid ""
 "for her vision on data visualization and the excellent work of her studio"
 " <a href=\"http://www.accurat.it/\">accurat.it</a>.</li>\n"
 "\t\t"
-msgstr "Wir haben beim Resonate viel Inspirierendes gesehen. Hier ist eine Liste unserer Lieblingsprojekte.<br/><br/><ul><li><a href=\"https://twitter.com/abstractmachine\">Douglas E. Stanley</a> und sein Konzept des „playing and breaking the machine“.</li><li><a href=\"https://twitter.com/daitomanabe\">Daito Manabe</a>, der Gesichter elektronisch kontrolliert.</li><li><a href=\"https://twitter.com/rachelbinx\">Rachel Binx und Sha Hwang </a> und ihr Laden <a href=\"http://meshu.io/\">Meshu</a> indem man sich maßgefertigten Schmuck basierend auf den eigenen Reisedaten bestellen kann.</li><li><a href=\"https://twitter.com/dentakuldn\">Dentaku</a> und das<a href=\"http://dentakulondon.com/ototo/\">Ototo Kit</a>, mit dem man seine eigenen Instrumente bauen kann.</li><li><a href=\"https://twitter.com/prgarc\">Pablo Garcia</a>, sein geniales Projekt <a href=\"http://www.pablogarcia.org/projects/webcam-venus/\">Webcam Venus</a>, das ambitionierte Archivierungs-Projekt <a href=\"https://twitter.com/drawingmachines\">drawingmachines.org</a> und sein Malwerkzeug <a href=\"http://neolucida.com/\">NeoLucida</a>, ein gemeinsames Projekt mit Golan Levin.</li><li><a href=\"https://twitter.com/giorgialupi\">Giorgia Lupi</a>, ihre Datenvisualisierungen und die exzellente Arbeit ihres Studios <a href=\"http://www.accurat.it/\">accurat.it</a>.</li>"
+msgstr "Wir haben beim Resonate viel Inspirierendes gesehen. Hier ist eine Liste unserer Lieblingsprojekte.<br/><br/><ul><li><a href=\"https://twitter.com/abstractmachine\">Douglas E. Stanley</a> und sein Konzept des „playing and breaking the machine“.</li><li><a href=\"https://twitter.com/daitomanabe\">Daito Manabe</a>, der Gesichter elektronisch kontrolliert.</li><li><a href=\"https://twitter.com/rachelbinx\">Rachel Binx und Sha Hwang </a> und ihr Laden <a href=\"http://meshu.io/\">Meshu</a> indem man sich maßgefertigten Schmuck basierend auf den eigenen Reisedaten bestellen kann.</li><li><a href=\"https://twitter.com/dentakuldn\">Dentaku</a> und das <a href=\"http://dentakulondon.com/ototo/\">Ototo Kit</a>, mit dem man seine eigenen Instrumente bauen kann.</li><li><a href=\"https://twitter.com/prgarc\">Pablo Garcia</a>, sein geniales Projekt <a href=\"http://www.pablogarcia.org/projects/webcam-venus/\">Webcam Venus</a>, das ambitionierte Archivierungs-Projekt <a href=\"https://twitter.com/drawingmachines\">drawingmachines.org</a> und sein Malwerkzeug <a href=\"http://neolucida.com/\">NeoLucida</a>, ein gemeinsames Projekt mit Golan Levin.</li><li><a href=\"https://twitter.com/giorgialupi\">Giorgia Lupi</a>, ihre Datenvisualisierungen und die exzellente Arbeit ihres Studios <a href=\"http://www.accurat.it/\">accurat.it</a>.</li>"
 
 #~ msgid ""
 #~ msgstr ""
