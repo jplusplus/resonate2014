@@ -168,7 +168,6 @@ msgstr ""
 "tickets se sont tous vendus en quelques semaines.</p>\n"
 
 #: templates/home.html:27
-#, fuzzy
 msgid ""
 "\n"
 "\n"
