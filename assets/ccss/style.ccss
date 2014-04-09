@@ -183,6 +183,7 @@ body, html:
 	font-family : 'Helvetica Neue', 'Helvetica', 'Sans serif'
 	font-size   : .5em
 	font-weight : bold
+	line-height : 1.5em
 
 .iframe:
 	&.loading iframe:
