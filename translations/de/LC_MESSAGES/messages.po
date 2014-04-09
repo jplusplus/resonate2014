@@ -548,7 +548,7 @@ msgstr ""
 "Wackelkarten zum Verkauf an. Die Profite werden im Verhältnis 80 zu 20 "
 "geteilt - zugunsten des Urhebers.  „Künstler für ihre Arbeit zu bezahlen "
 "ist ein gutes Gefühl,“ sagt Binx mit einem breiten Grinsen, „Ich liebe "
-"es, Leuten Schecks auszustellen.“</p>"
+"es, Leuten Schecks auszustellen.“ ▪</p>"
 
 #: templates/home.html:139
 msgid "Follow!"
