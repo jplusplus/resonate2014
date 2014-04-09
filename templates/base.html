@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{g.get('language', 'en')}}">
 
 	<head>
 		<meta charset="utf-8">{#  #}</meta>
@@ -14,9 +14,7 @@
 		<meta property="og:type" content="article"/>
 		<title>{% trans %}Digital Arts Circus{% endtrans %}</title>
 
-		{% assets "css_all" %}
-			<link rel="stylesheet" href="{{ ASSET_URL }}" type="text/css" />
-		{% endassets %}
+		{% include "css.html" %}
 
 	</head>
 
@@ -28,14 +26,7 @@
 
 		{% include "footer.html" %}
 
-		{% assets "js_all" %}
-			<script type="text/javascript" src="{{ ASSET_URL }}"></script>
-		{% endassets %}
+		{% include "js.html" %}
 
-		{% block extra_js %}{% endblock %}
-		<script type="text/javascript">
-			var navigation = new Navigation();
-			{% include "tracker.js" %}
-		</script>
 	</body>
 </html>
