@@ -76,7 +76,8 @@ class Navigation
 
 	showImage: (media, image) =>
 		media.addClass("loading")
-		media.prepend($("<div class=\"loader\"/>"))
+		loader = $("<div class=\"loader\"/>")
+		media.prepend(loader)
 		body = $("<div/>").addClass("body")
 		if media.data("src")?
 			media.find(".body").remove()
@@ -90,6 +91,9 @@ class Navigation
 					"background-image" : "url(#{media.data("src")})"
 			setTimeout(->
 				media.removeClass("loading")
+				setTimeout(->
+					loader.remove()
+				, 500)
 			, 100)
 			$('body').each ->
 				$spy = $(this).scrollspy('refresh')
