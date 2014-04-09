@@ -55,7 +55,11 @@ msgid ""
 "inspiring local guides.</div>\n"
 "\t\t<div>Big up to Marco our host and skillful driver.</div>\n"
 "\t\t"
-msgstr ""
+msgstr "<div>Wir bedanken uns beim Resonate-Team, im Speziellen bei Maria Jelesijevic.</div> 
+<div>Wir bedanken uns auch bei den Festival-Fotographen, die uns ihre Bilder zur Verfügung gestellt haben.</div>
+<div>Ein spezieller Dank gilt Milica, Nevena und Ana, unseren wunderbaren Guides.</div>
+<div>Big up an Marco unseren Gastgeber und waghalsigen Fahrer.</div>
+"
 
 #: templates/header.html:15
 msgid "Intro"
