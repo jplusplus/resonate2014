@@ -244,7 +244,7 @@ msgstr ""
 "Spielen, Performances, Datenvisualisierungen, interaktiven Installationen"
 " und Künstliche Intelligenz Projekten präsentiert. Der Medienkunst-Zirkus"
 " hat seine Zelte in Belgrad aufgeschlagen.</p><p>Manche Teilnehmer sind "
-"schon ein paar Tage vor der offiziellen Eröffnung gekommen. In workshops "
+"schon ein paar Tage vor der offiziellen Eröffnung gekommen. In Workshops "
 "beschäftigen sie sich mit Gesichts-Manipulation, Lichtinstallationen und "
 "algorithmischer Kunst. Oft kennen sie sich schon von gemeinsamen "
 "Projekten oder ‘Hackathons’, die aber selten länger als ein paar Tage "
@@ -626,5 +626,10 @@ msgstr ""
 #~ "inspiring local guides.</div>\n"
 #~ "\t\t<div>Big up to Marco our host and skillful driver.</div>\n"
 #~ "\t\t"
-#~ msgstr ""
+#~ msgstr "
+<div>Wir bedanken uns beim Resonate-Team, im Speziellen bei Maria Jelesijevic.</div> 
+<div>Wir bedanken uns auch bei den Festival-Fotographen, die uns ihre Bilder zur Verfügung gestellt haben.</div>
+<div>Ein spezieller Dank gilt Milica, Nevena und Ana, unseren wunderbaren Guides.</div>
+<div>Big up an Marco unseren Gastgeber und waghalsigen Fahrer.</div>
+"
 
