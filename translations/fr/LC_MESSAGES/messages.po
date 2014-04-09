@@ -435,7 +435,7 @@ msgstr ""
 
 #: templates/home.html:97
 msgid "III. Market Forces"
-msgstr "III. Market Forces"
+msgstr "III. Face au marché"
 
 #: templates/home.html:102
 msgid ""
@@ -570,7 +570,7 @@ msgstr ""
 "font-ils pour payer leur loyer ? Souvent, ces artistes sont également des"
 " entrepreneurs. Qui n’hésitent pas à monétiser leurs idées.</p>\n"
 "<div class=\"illustration full\" data-"
-"src=\"static/images/meshu.jpg\" data-ratio=\"1.709401709\">\n"
+"src=\"static/images/meshu.jpg\" data-ratio=\"2\">\n"
 "\t\t\t\t<div class=\"legend\">Un Meshu de San Francisco ⁞ © "
 "Meshu</div>\n"
 "\t\t\t</div><p>Les artistes numériques Rachel Binx et"
