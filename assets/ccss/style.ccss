@@ -134,6 +134,8 @@ body, html:
 		font-size   : 0.3em
 		&:before:
 			content:'\"\\2014\"'
+		line-height: 1.75em
+		padding-top: 1em
 
 // -------------------------------
 // ILLUSTRATION AND IFRAME
