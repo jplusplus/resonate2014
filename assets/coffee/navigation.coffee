@@ -26,7 +26,7 @@ class Navigation
 		lazy_relayout = _.debounce(@relayout, 10)
 		$(window).resize(lazy_relayout)
 		window.onscroll = @onScroll
-		$('.bookmark a').click(@onAncreClick)
+		$('.bookmark a, .navbar-header a').click(@onAncreClick)
 		$('.navbar-collapse').on('show.bs.collapse',   => @toggleHeaderStyle(false))
 		$('.navbar-collapse').on('hidden.bs.collapse', => @toggleHeaderStyle($(document).scrollTop() == 0))
 
