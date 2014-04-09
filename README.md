@@ -1,7 +1,7 @@
-RESONATE 2014
-=============
+Digital Arts Circus
+===================
 
-Belgrade, April 2014
+Resonate Festival, Belgrade, April 2014
 
 ## The project
 
