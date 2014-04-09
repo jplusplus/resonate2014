@@ -248,7 +248,7 @@ msgstr ""
 "beschäftigen sie sich mit Gesichts-Manipulation, Lichtinstallationen und "
 "algorithmischer Kunst. Oft kennen sie sich schon von gemeinsamen "
 "Projekten oder ‘Hackathons’, die aber selten länger als ein paar Tage "
-"dauern. Die Medienkunst-Szene ist klein. Nur wenige arbeiten mit der "
+"dauern. Die Medienkunst-Szene ist klein. Nur wenige Informatiker arbeiten mit der "
 "Software, die Code-Künstler entwickeln. OpenFrameworks, Cinder und vvvv "
 "sind exotische Werkzeuge, sogar für erfahrene Programmierer. Beim "
 "Resonate Festival kennt sie jeder. Künstler benutzen sie um Licht, Ton "
@@ -626,10 +626,8 @@ msgstr ""
 #~ "inspiring local guides.</div>\n"
 #~ "\t\t<div>Big up to Marco our host and skillful driver.</div>\n"
 #~ "\t\t"
-#~ msgstr "
-<div>Wir bedanken uns beim Resonate-Team, im Speziellen bei Maria Jelesijevic.</div> 
+#~ msgstr "<div>Wir bedanken uns beim Resonate-Team, im Speziellen bei Maria Jelesijevic.</div> 
 <div>Wir bedanken uns auch bei den Festival-Fotographen, die uns ihre Bilder zur Verfügung gestellt haben.</div>
 <div>Ein spezieller Dank gilt Milica, Nevena und Ana, unseren wunderbaren Guides.</div>
-<div>Big up an Marco unseren Gastgeber und waghalsigen Fahrer.</div>
-"
+<div>Big up an Marco unseren Gastgeber und waghalsigen Fahrer.</div>"
 
