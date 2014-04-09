@@ -78,7 +78,6 @@ msgid "The new-media bohemia gathers in Belgrade"
 msgstr "Eine neue Generation von Code-Künstlern trifft sich in Belgrad"
 
 #: templates/home.html:17
-#, fuzzy
 msgid ""
 "\n"
 "\t\t\t<p>They do not call themselves ‘artists’, but their creations "
@@ -155,7 +154,6 @@ msgstr ""
 "Energy-Drink und zündet sich noch eine Davidoff Zigarette an.</p>"
 
 #: templates/home.html:27
-#, fuzzy
 msgid ""
 "\n"
 "\n"
@@ -182,7 +180,6 @@ msgid "I. Code Bohemia"
 msgstr "I. Code Bohème"
 
 #: templates/home.html:43
-#, fuzzy
 msgid ""
 "\n"
 "\t\t\t<p>Space not taken up by laptops is covered with cables, duct tape,"
@@ -299,7 +296,6 @@ msgid "II. Open Source Art"
 msgstr "II. Open Source Kunst"
 
 #: templates/home.html:78
-#, fuzzy
 msgid ""
 "\n"
 "\t\t\t<p>The default behaviour of many new-media artists is open source. "
@@ -385,7 +381,6 @@ msgid "III. Market Forces"
 msgstr "III. Marktkräfte"
 
 #: templates/home.html:102
-#, fuzzy
 msgid ""
 "\n"
 "\t\t\t\n"
@@ -618,6 +613,39 @@ msgid ""
 "target=\"_blank\">Accurat</a>.</li>\n"
 "\t\t"
 msgstr ""
+"Wir haben beim Resonate viel "
+"Inspirierendes gesehen. Hier ist eine "
+"Liste unserer Lieblingsprojekte.<br/><br/><ul><li><a "
+"href=\"https://twitter.com/abstractmachine\">Douglas E. "
+"Stanley</a> und sein Konzept des "
+"„playing and breaking the machine“.</li><li><a"
+" href=\"https://twitter.com/daitomanabe\">Daito Manabe</a>,"
+" der Gesichter elektronisch "
+"kontrolliert.</li><li><a "
+"href=\"https://twitter.com/rachelbinx\">Rachel Binx und"
+" Sha Hwang </a> und ihr Laden "
+"<a href=\"http://meshu.io/\">Meshu</a> indem man "
+"sich maßgefertigten Schmuck basierend auf "
+"den eigenen Reisedaten bestellen "
+"kann.</li><li><a "
+"href=\"https://twitter.com/dentakuldn\">Dentaku</a> und "
+"das <a href=\"http://dentakulondon.com/ototo/\">Ototo "
+"Kit</a>, mit dem man seine eigenen "
+"Instrumente bauen kann.</li><li><a "
+"href=\"https://twitter.com/prgarc\">Pablo Garcia</a>, sein"
+" geniales Projekt <a "
+"href=\"http://www.pablogarcia.org/projects/webcam-"
+"venus/\">Webcam Venus</a>, das ambitionierte "
+"Archivierungs-Projekt <a "
+"href=\"https://twitter.com/drawingmachines\">drawingmachines.org</a>"
+" und sein Malwerkzeug <a "
+"href=\"http://neolucida.com/\">NeoLucida</a>, ein "
+"gemeinsames Projekt mit Golan "
+"Levin.</li><li><a "
+"href=\"https://twitter.com/giorgialupi\">Giorgia Lupi</a>, "
+"ihre Datenvisualisierungen und die exzellente"
+" Arbeit ihres Studios <a "
+"href=\"http://www.accurat.it/\">accurat.it</a>.</li>"
 
 #~ msgid ""
 #~ msgstr ""
