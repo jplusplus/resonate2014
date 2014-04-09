@@ -95,10 +95,14 @@ class Navigation
 				$spy = $(this).scrollspy('refresh')
 
 	showIframe: (media, iframe) =>
-		media.prepend($("<div class=\"loader\"/>"))
+		loader = $("<div class=\"loader\"/>")
+		media.prepend(loader)
 		media.addClass("loading")
 		return (e) ->
 			media.removeClass("loading")
+			setTimeout(->
+				loader.remove()
+			, 500)
 			$('body').each ->
 				$spy = $(this).scrollspy('refresh')
 
