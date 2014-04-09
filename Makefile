@@ -13,7 +13,8 @@ freeze:
 	-rm build -r
 	. `pwd`/.env ; python -c "from webapp import app; from flask_frozen import Freezer; freezer = Freezer(app); freezer.freeze()"
 	-rm build/static/.webassets-cache/ -r
-	sed -i 's/\/static/static/g' build/*.html
+	sed -i 's/href="\//href="/g' build/*.html
+	sed -i 's/src="\//src="/g' build/*.html
 
 update_i18n:
 	pybabel extract -F babel.cfg -o translations/messages.pot .
