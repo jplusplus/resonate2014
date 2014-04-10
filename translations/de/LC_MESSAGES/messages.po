@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-04-09 15:47+0200\n"
+"POT-Creation-Date: 2014-04-10 12:27+0200\n"
 "PO-Revision-Date: 2014-04-08 17:54+0100\n"
 "Last-Translator: Edouard Richard <edou4rd@gmail.com>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -24,7 +24,7 @@ msgid ""
 "festival."
 msgstr ""
 
-#: templates/base.html:12 templates/base.html:15 templates/header.html:10
+#: templates/base.html:13 templates/base.html:16 templates/header.html:10
 #: templates/home.html:8
 msgid "Digital Arts Circus"
 msgstr "Der Medienkunst-Zirkus"
@@ -46,6 +46,10 @@ msgstr ""
 "target=\"_blank\">Resonate</a>.</span></div>"
 
 #: templates/footer.html:18
+msgid "Give us feedback and grab the code !"
+msgstr "Gib' uns Feedback und schnapp' Dir den Code!"
+
+#: templates/footer.html:21
 msgid ""
 "\n"
 "\t\t<div>We would like to thank the Resonate team, especially Maria "
