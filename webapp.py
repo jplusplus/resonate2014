@@ -5,11 +5,26 @@
 # -----------------------------------------------------------------------------
 # Author : Edouard Richard                                  <edou4rd@gmail.com>
 # -----------------------------------------------------------------------------
-# License : GNU Lesser General Public License
+# License : GNU General Public License
 # -----------------------------------------------------------------------------
 # Creation : 26-Mar-2014
-# Last mod : 31-Mar-2014
+# Last mod : 09-Apr-2014
 # -----------------------------------------------------------------------------
+# This file is part of Resonate2014.
+# 
+#     Resonate2014 is free software: you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation, either version 3 of the License, or
+#     (at your option) any later version.
+# 
+#     Resonate2014 is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+# 
+#     You should have received a copy of the GNU General Public License
+#     along with Resonate2014.  If not, see <http://www.gnu.org/licenses/>.
+
 from flask import Flask, render_template, request, send_file, g, \
 	send_from_directory, Response, abort, session, redirect, url_for, make_response
 from flask.ext.assets import Environment, YAMLLoader
