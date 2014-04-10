@@ -18,6 +18,10 @@ Our reportage in english, french and german.
 
 By [Anne-Lise Bouyer](https://twitter.com/annelisebouyer), [Sebastian Kraus](https://twitter.com/sm_kraus) et [Edouard Richard](https://twitter.com/vied12) for [Journalism++](http://jplusplus.org/)  
 CC-BY-SA Journalism++ SAS ⁞ Photos © Resonate.
+
+Licence : GNU General Public License V3
+
+
 ## Installation
 
 ### Dependances
