@@ -19,14 +19,22 @@
 #     You should have received a copy of the GNU General Public License
 #     along with Resonate2014.  If not, see <http://www.gnu.org/licenses/>.
 
-WEBAPP     = $(wildcard webapp.py)
+WEBAPP = $(wildcard webapp.py)
+PYC    = $(wildcard *.pyc */*.pyc sources/*/*.pyc sources/*/*/*.pyc sources/*/*/*/*.pyc sources/*/*/*/*/*.pyc)
+CACHE  = $(wildcard static/.webassets-cache static/gen)
+RM     = rm -fr
 
-run:
+run: clean
 	. `pwd`/.env ; python $(WEBAPP)
 
 install:
 	virtualenv venv --no-site-packages --distribute --prompt=resonate2014
 	. `pwd`/.env ; pip install -r requirements.txt
+	. `pwd`/.env ; npm install
+
+clean:
+	$(RM) $(PYC)
+	$(RM) $(CACHE)
 
 freeze:
 	-rm build -r

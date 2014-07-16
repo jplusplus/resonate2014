@@ -1,0 +1,22 @@
+{
+  "name": "resonate2014",
+  "version": "0.0.0",
+  "description": "Digital Arts Circus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jplusplus/resonate2014.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jplusplus/resonate2014/issues"
+  },
+  "homepage": "https://github.com/jplusplus/resonate2014",
+  "dependencies": {
+    "coffee-script": "^1.7.1"
+  }
+}
