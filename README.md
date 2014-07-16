@@ -32,8 +32,6 @@ and install virtualenv
 
 	$ sudo pip install virtualenv
 
-Please also install [CoffeeScript](http://coffeescript.org/)
-
 ### Setup a virtualenv and download dependances
 
 	$ make install
